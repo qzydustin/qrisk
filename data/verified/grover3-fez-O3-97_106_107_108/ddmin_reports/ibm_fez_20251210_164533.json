@@ -1,0 +1,502 @@
+{
+  "timestamp": "2025-12-10T16:45:33",
+  "baseline_ratio": 1.62,
+  "noise_threshold": 0.05,
+  "problematic_segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "problematic_details": [
+    {
+      "layer_id": 1,
+      "moments": [
+        2,
+        3,
+        4
+      ],
+      "description": "8xrz, 2xsx",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            97
+          ],
+          "params": [
+            1.570796
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            106
+          ],
+          "params": [
+            -1.570796
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            1.570796
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            108
+          ],
+          "params": [
+            1.570796
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            97
+          ],
+          "params": [
+            1.570796
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            106
+          ],
+          "params": [
+            -1.570796
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            108
+          ],
+          "params": [
+            -1.178097
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            106
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            -3.141593
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 2,
+      "moments": [
+        5,
+        6,
+        7
+      ],
+      "description": "4xrz, 1xcz, 2xsx, 1xx",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            106
+          ],
+          "params": [
+            -1.963495
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            97,
+            107
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            106
+          ]
+        },
+        {
+          "op": "x",
+          "qubits": [
+            97
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            106
+          ],
+          "params": [
+            -4.712389
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            97
+          ],
+          "params": [
+            -1.570796
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            2.748894
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 3,
+      "moments": [
+        8,
+        9,
+        10
+      ],
+      "description": "2xsx, 1xcz, 1xx",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            97,
+            107
+          ]
+        },
+        {
+          "op": "x",
+          "qubits": [
+            97
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 4,
+      "moments": [
+        11,
+        12,
+        13
+      ],
+      "description": "2xrz, 1xsx, 1xcz",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            97
+          ],
+          "params": [
+            -2.748894
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            2.771693
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            108,
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 5,
+      "moments": [
+        14,
+        15,
+        16
+      ],
+      "description": "2xsx, 1xrz, 1xcz",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            108
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            0.392699
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            108,
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 6,
+      "moments": [
+        17,
+        18,
+        19
+      ],
+      "description": "3xsx, 1xcz, 1xrz",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            108
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            97,
+            107
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            108
+          ],
+          "params": [
+            0.762599
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 7,
+      "moments": [
+        20,
+        21,
+        22
+      ],
+      "description": "1xrz, 1xsx, 1xcz",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            -2.748894
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            108,
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 8,
+      "moments": [
+        23,
+        24,
+        25
+      ],
+      "description": "2xsx, 1xrz",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            -2.748894
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 9,
+      "moments": [
+        26,
+        27,
+        28
+      ],
+      "description": "1xrz, 1xcz, 1xsx",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            -3.141593
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            97,
+            107
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 10,
+      "moments": [
+        29,
+        30,
+        31
+      ],
+      "description": "1xrz, 1xsx, 1xcz",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            -1.988377
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            106,
+            107
+          ]
+        }
+      ]
+    }
+  ],
+  "ddmin_steps": [
+    {
+      "step": 1,
+      "action": "baseline",
+      "kept": 36,
+      "ratio": 1.62,
+      "result": "ratio=1.62 > 1+tau=1.05, starting DDMin"
+    },
+    {
+      "step": 2,
+      "action": "sufficient",
+      "kept": 18,
+      "ratio": 1.48,
+      "result": "keep 0-17: ratio=1.48 > 1+tau -> sufficient, narrow to 0-17"
+    },
+    {
+      "step": 3,
+      "action": "sufficient",
+      "kept": 10,
+      "ratio": 1.35,
+      "result": "keep 1-10: ratio=1.35 > 1+tau -> sufficient, converged to [1-10]"
+    }
+  ]
+}

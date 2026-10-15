@@ -1,0 +1,1210 @@
+{
+  "hit_0": [
+    {
+      "depth": 329,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw500_s54.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw49_h0_s05.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw58_h0_s06.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw51_h0_x05.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw61_h0_s08.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw37_h0_s02.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw64_h0_s09.qpy"
+    },
+    {
+      "depth": 326,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw500_s408.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw500_s447.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw43_h0_s03.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw500_s120.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw20_s80.qpy"
+    },
+    {
+      "depth": 328,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw200_s382.qpy"
+    },
+    {
+      "depth": 333,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw50_s260.qpy"
+    },
+    {
+      "depth": 329,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw100_s399.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw500_s253.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw65_h0_s10.qpy"
+    },
+    {
+      "depth": 326,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit0_sw500_s248.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw36_h0_s01.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw59_h0_s07.qpy"
+    }
+  ],
+  "hit_1": [
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw19_h1_s05.qpy"
+    },
+    {
+      "depth": 330,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw100_s299.qpy"
+    },
+    {
+      "depth": 329,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw200_s282.qpy"
+    },
+    {
+      "depth": 330,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw50_s53.qpy"
+    },
+    {
+      "depth": 330,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw5_s104.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw29_h1_s10.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw17_h1_x05.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw24_h1_s07.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw27_h1_s08.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw16_h1_s03.qpy"
+    },
+    {
+      "depth": 330,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw500_s446.qpy"
+    },
+    {
+      "depth": 328,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw200_s179.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw11_h1_x02.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw20_s371.qpy"
+    },
+    {
+      "depth": 330,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw200_s407.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw11_h1_x01.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw10_h1_s01.qpy"
+    },
+    {
+      "depth": 327,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw50_s74.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw17_h1_s04.qpy"
+    },
+    {
+      "depth": 330,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit1_sw10_s243.qpy"
+    }
+  ],
+  "hit_2": [
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw5_s79.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw5_h2_s04.qpy"
+    },
+    {
+      "depth": 333,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw20_s28.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw3_s244.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw50_s253.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h2_f02.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw1_s14.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw2_s89.qpy"
+    },
+    {
+      "depth": 328,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw200_s49.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw10_s14.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw12_h2_s10.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw2_h2_f05.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw9_h2_s06.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw500_s407.qpy"
+    },
+    {
+      "depth": 328,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit2_sw100_s135.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw9_h2_s05.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw2_h2_f03.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw2_h2_e04.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw2_h2_x02.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw3_h2_s02.qpy"
+    }
+  ],
+  "hit_3": [
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h3_x02.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h3_e05.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h3_x01.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h3_e07.qpy"
+    },
+    {
+      "depth": 328,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw200_s185.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h3_e06.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw5_s190.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h3_x04.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw10_s40.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h3_e01.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h3_f05.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw2_h3_s06.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw5_s108.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw1_s51.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw50_s47.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw3_s299.qpy"
+    },
+    {
+      "depth": 331,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw20_s118.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw2_s464.qpy"
+    },
+    {
+      "depth": 329,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_new_hit3_sw100_s31.qpy"
+    },
+    {
+      "depth": 332,
+      "num_gates": 477,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 189,
+        "sx": 195,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 322,
+      "min_qubit_depth": 70,
+      "file": "marrakesh_3x_sw1_h3_e09.qpy"
+    }
+  ]
+}

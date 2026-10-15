@@ -1,0 +1,2432 @@
+{
+  "experiment": "xalg_exp1_ddmin",
+  "algorithm": "ae",
+  "backend": "ibm_fez",
+  "layout": [
+    46,
+    47,
+    48,
+    57
+  ],
+  "run": 1,
+  "hardware": "ibm",
+  "emulate_fault": null,
+  "started": "2026-09-25T14:38:17",
+  "finished": "2026-09-25T14:41:41",
+  "wall_seconds": 204.5,
+  "incomplete": false,
+  "calibration": {
+    "backend": "ibm_fez",
+    "hardware": "ibm",
+    "calibration_last_update": "2026-09-25T14:01:34-05:00"
+  },
+  "versions": {
+    "qiskit": "2.4.1",
+    "qiskit-aer": "0.17.2",
+    "qiskit-ibm-runtime": "0.46.1",
+    "mqt.bench": "2.3.0"
+  },
+  "qpu_seconds": 44.0,
+  "pattern_key": "x(47) → rz(47) → sx(57) → rz(57) → sx(57)",
+  "core_key": "sx(57) → rz(57) → sx(57)",
+  "core": [
+    [
+      "sx",
+      [
+        57
+      ],
+      []
+    ],
+    [
+      "rz",
+      [
+        57
+      ],
+      [
+        1.85459
+      ]
+    ],
+    [
+      "sx",
+      [
+        57
+      ],
+      []
+    ]
+  ],
+  "meta": {
+    "timestamp": "2026-09-25T14:41:41.831195",
+    "circuit_info": {
+      "total_qubits": 156,
+      "measured_qubits": [
+        46,
+        47,
+        48,
+        57
+      ]
+    },
+    "measurement_mapping": {
+      "47": 0,
+      "46": 1,
+      "48": 2,
+      "57": 3
+    },
+    "evaluation": {
+      "shots": 8192,
+      "noise_threshold": 0.15670344327696162,
+      "min_expected_tvd": 0.035498046875,
+      "max_granularity": 16,
+      "moments_per_segment": 3,
+      "test_mode": false
+    }
+  },
+  "problematic_segments": [
+    7
+  ],
+  "pattern": [
+    [
+      "x",
+      [
+        47
+      ],
+      []
+    ],
+    [
+      "rz",
+      [
+        47
+      ],
+      [
+        -1.570796
+      ]
+    ],
+    [
+      "sx",
+      [
+        57
+      ],
+      []
+    ],
+    [
+      "rz",
+      [
+        57
+      ],
+      [
+        1.85459
+      ]
+    ],
+    [
+      "sx",
+      [
+        57
+      ],
+      []
+    ]
+  ],
+  "segments_info": [
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-1.570796326794897]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 0,
+          "operation": "rz",
+          "qubits": [
+            46
+          ],
+          "params": [
+            -1.570796326794897
+          ],
+          "moment": 0
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.5707963267948966]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 3,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            1.5707963267948966
+          ],
+          "moment": 0
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.5707963267948966]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 5,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            1.5707963267948966
+          ],
+          "moment": 0
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 9,
+          "operation": "sx",
+          "qubits": [
+            57
+          ],
+          "params": [],
+          "moment": 0
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 1,
+          "operation": "sx",
+          "qubits": [
+            46
+          ],
+          "params": [],
+          "moment": 1
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 4,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 1
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 6,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 1
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-4.71238898038469]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 10,
+          "operation": "rz",
+          "qubits": [
+            57
+          ],
+          "params": [
+            -4.71238898038469
+          ],
+          "moment": 1
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[3.0387543840601428]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 2,
+          "operation": "rz",
+          "qubits": [
+            46
+          ],
+          "params": [
+            3.0387543840601428
+          ],
+          "moment": 2
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[2.1817769157371014]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 7,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            2.1817769157371014
+          ],
+          "moment": 2
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=57>), clbits=())",
+          "index": 11,
+          "operation": "cz",
+          "qubits": [
+            47,
+            57
+          ],
+          "params": [],
+          "moment": 2
+        }
+      ],
+      "layer_id": 0,
+      "moments": [
+        0,
+        1,
+        2
+      ],
+      "description": "6xrz, 4xsx, 1xcz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 8,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 3
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 12,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 3
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 13,
+          "operation": "sx",
+          "qubits": [
+            57
+          ],
+          "params": [],
+          "moment": 3
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=57>), clbits=())",
+          "index": 14,
+          "operation": "cz",
+          "qubits": [
+            47,
+            57
+          ],
+          "params": [],
+          "moment": 4
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-3.141592653589793]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 15,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            -3.141592653589793
+          ],
+          "moment": 5
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 18,
+          "operation": "sx",
+          "qubits": [
+            57
+          ],
+          "params": [],
+          "moment": 5
+        }
+      ],
+      "layer_id": 1,
+      "moments": [
+        3,
+        4,
+        5
+      ],
+      "description": "4xsx, 1xcz, 1xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 16,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 6
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-3.141592653589793]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 17,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            -3.141592653589793
+          ],
+          "moment": 7
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=57>), clbits=())",
+          "index": 19,
+          "operation": "cz",
+          "qubits": [
+            47,
+            57
+          ],
+          "params": [],
+          "moment": 8
+        }
+      ],
+      "layer_id": 2,
+      "moments": [
+        6,
+        7,
+        8
+      ],
+      "description": "1xsx, 1xrz, 1xcz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 20,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 9
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='x', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 34,
+          "operation": "x",
+          "qubits": [
+            57
+          ],
+          "params": [],
+          "moment": 9
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-2.498091544796509]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 21,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            -2.498091544796509
+          ],
+          "moment": 10
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 22,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 11
+        }
+      ],
+      "layer_id": 3,
+      "moments": [
+        9,
+        10,
+        11
+      ],
+      "description": "2xsx, 1xx, 1xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-3.1415926535897905]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 23,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            -3.1415926535897905
+          ],
+          "moment": 12
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>, <Qubit register=(156, \"q\"), index=47>), clbits=())",
+          "index": 24,
+          "operation": "cz",
+          "qubits": [
+            46,
+            47
+          ],
+          "params": [],
+          "moment": 13
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='x', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 25,
+          "operation": "x",
+          "qubits": [
+            46
+          ],
+          "params": [],
+          "moment": 14
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 27,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 14
+        }
+      ],
+      "layer_id": 4,
+      "moments": [
+        12,
+        13,
+        14
+      ],
+      "description": "1xrz, 1xcz, 1xx, 1xsx"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.4679580572652462]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 26,
+          "operation": "rz",
+          "qubits": [
+            46
+          ],
+          "params": [
+            1.4679580572652462
+          ],
+          "moment": 15
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[2.214297435588181]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 28,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            2.214297435588181
+          ],
+          "moment": 15
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 29,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 16
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>, <Qubit register=(156, \"q\"), index=47>), clbits=())",
+          "index": 30,
+          "operation": "cz",
+          "qubits": [
+            46,
+            47
+          ],
+          "params": [],
+          "moment": 17
+        }
+      ],
+      "layer_id": 5,
+      "moments": [
+        15,
+        16,
+        17
+      ],
+      "description": "2xrz, 1xsx, 1xcz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 31,
+          "operation": "sx",
+          "qubits": [
+            46
+          ],
+          "params": [],
+          "moment": 18
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 32,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 18
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-2.498091544796517]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 33,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            -2.498091544796517
+          ],
+          "moment": 19
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=57>), clbits=())",
+          "index": 35,
+          "operation": "cz",
+          "qubits": [
+            47,
+            57
+          ],
+          "params": [],
+          "moment": 20
+        }
+      ],
+      "layer_id": 6,
+      "moments": [
+        18,
+        19,
+        20
+      ],
+      "description": "2xsx, 1xrz, 1xcz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='x', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 36,
+          "operation": "x",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 21
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 38,
+          "operation": "sx",
+          "qubits": [
+            57
+          ],
+          "params": [],
+          "moment": 21
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-1.5707963267948966]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 37,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            -1.5707963267948966
+          ],
+          "moment": 22
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.8545904360032246]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 39,
+          "operation": "rz",
+          "qubits": [
+            57
+          ],
+          "params": [
+            1.8545904360032246
+          ],
+          "moment": 22
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 40,
+          "operation": "sx",
+          "qubits": [
+            57
+          ],
+          "params": [],
+          "moment": 23
+        }
+      ],
+      "layer_id": 7,
+      "moments": [
+        21,
+        22,
+        23
+      ],
+      "description": "1xx, 2xsx, 2xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=57>), clbits=())",
+          "index": 41,
+          "operation": "cz",
+          "qubits": [
+            47,
+            57
+          ],
+          "params": [],
+          "moment": 24
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='x', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 42,
+          "operation": "x",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 25
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.5707963267948957]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 54,
+          "operation": "rz",
+          "qubits": [
+            57
+          ],
+          "params": [
+            1.5707963267948957
+          ],
+          "moment": 25
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-0.2837941092083289]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 43,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            -0.2837941092083289
+          ],
+          "moment": 26
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 55,
+          "operation": "sx",
+          "qubits": [
+            57
+          ],
+          "params": [],
+          "moment": 26
+        }
+      ],
+      "layer_id": 8,
+      "moments": [
+        24,
+        25,
+        26
+      ],
+      "description": "1xcz, 1xx, 2xrz, 1xsx"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=48>), clbits=())",
+          "index": 44,
+          "operation": "cz",
+          "qubits": [
+            47,
+            48
+          ],
+          "params": [],
+          "moment": 27
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.5707963267948957]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 56,
+          "operation": "rz",
+          "qubits": [
+            57
+          ],
+          "params": [
+            1.5707963267948957
+          ],
+          "moment": 27
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='x', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 45,
+          "operation": "x",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 28
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 47,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 28
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-1.003208108378244]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 46,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            -1.003208108378244
+          ],
+          "moment": 29
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[2.574004435173137]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 48,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            2.574004435173137
+          ],
+          "moment": 29
+        }
+      ],
+      "layer_id": 9,
+      "moments": [
+        27,
+        28,
+        29
+      ],
+      "description": "1xcz, 3xrz, 1xx, 1xsx"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 49,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 30
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=48>), clbits=())",
+          "index": 50,
+          "operation": "cz",
+          "qubits": [
+            47,
+            48
+          ],
+          "params": [],
+          "moment": 31
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-3.1415926535897922]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 51,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            -3.1415926535897922
+          ],
+          "moment": 32
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=57>), clbits=())",
+          "index": 57,
+          "operation": "cz",
+          "qubits": [
+            47,
+            57
+          ],
+          "params": [],
+          "moment": 32
+        }
+      ],
+      "layer_id": 10,
+      "moments": [
+        30,
+        31,
+        32
+      ],
+      "description": "1xsx, 2xcz, 1xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 52,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 33
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 58,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 33
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 59,
+          "operation": "sx",
+          "qubits": [
+            57
+          ],
+          "params": [],
+          "moment": 33
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[0.9598157378526904]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 53,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            0.9598157378526904
+          ],
+          "moment": 34
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=57>), clbits=())",
+          "index": 60,
+          "operation": "cz",
+          "qubits": [
+            47,
+            57
+          ],
+          "params": [],
+          "moment": 34
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 61,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 35
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=57>,), clbits=())",
+          "index": 62,
+          "operation": "sx",
+          "qubits": [
+            57
+          ],
+          "params": [],
+          "moment": 35
+        }
+      ],
+      "layer_id": 11,
+      "moments": [
+        33,
+        34,
+        35
+      ],
+      "description": "5xsx, 1xrz, 1xcz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=57>), clbits=())",
+          "index": 63,
+          "operation": "cz",
+          "qubits": [
+            47,
+            57
+          ],
+          "params": [],
+          "moment": 36
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-3.9269908169872414]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 64,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            -3.9269908169872414
+          ],
+          "moment": 37
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=48>), clbits=())",
+          "index": 65,
+          "operation": "cz",
+          "qubits": [
+            47,
+            48
+          ],
+          "params": [],
+          "moment": 38
+        }
+      ],
+      "layer_id": 12,
+      "moments": [
+        36,
+        37,
+        38
+      ],
+      "description": "2xcz, 1xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 66,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 39
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-2.3561944901923457]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 67,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            -2.3561944901923457
+          ],
+          "moment": 40
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 68,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 41
+        }
+      ],
+      "layer_id": 13,
+      "moments": [
+        39,
+        40,
+        41
+      ],
+      "description": "2xsx, 1xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=48>), clbits=())",
+          "index": 69,
+          "operation": "cz",
+          "qubits": [
+            47,
+            48
+          ],
+          "params": [],
+          "moment": 42
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 70,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 43
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 83,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 43
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.5707963267948966]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 71,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            1.5707963267948966
+          ],
+          "moment": 44
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-2.356194490192344]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 84,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            -2.356194490192344
+          ],
+          "moment": 44
+        }
+      ],
+      "layer_id": 14,
+      "moments": [
+        42,
+        43,
+        44
+      ],
+      "description": "1xcz, 2xsx, 2xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=46>), clbits=())",
+          "index": 72,
+          "operation": "cz",
+          "qubits": [
+            47,
+            46
+          ],
+          "params": [],
+          "moment": 45
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 85,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 45
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 73,
+          "operation": "sx",
+          "qubits": [
+            46
+          ],
+          "params": [],
+          "moment": 46
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 74,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 46
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=46>), clbits=())",
+          "index": 75,
+          "operation": "cz",
+          "qubits": [
+            47,
+            46
+          ],
+          "params": [],
+          "moment": 47
+        }
+      ],
+      "layer_id": 15,
+      "moments": [
+        45,
+        46,
+        47
+      ],
+      "description": "2xcz, 3xsx"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 76,
+          "operation": "sx",
+          "qubits": [
+            46
+          ],
+          "params": [],
+          "moment": 48
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 77,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 48
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=46>), clbits=())",
+          "index": 78,
+          "operation": "cz",
+          "qubits": [
+            47,
+            46
+          ],
+          "params": [],
+          "moment": 49
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.5707963267948966]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 79,
+          "operation": "rz",
+          "qubits": [
+            46
+          ],
+          "params": [
+            1.5707963267948966
+          ],
+          "moment": 50
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[0.39269908169872414]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 82,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            0.39269908169872414
+          ],
+          "moment": 50
+        }
+      ],
+      "layer_id": 16,
+      "moments": [
+        48,
+        49,
+        50
+      ],
+      "description": "2xsx, 1xcz, 2xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 80,
+          "operation": "sx",
+          "qubits": [
+            46
+          ],
+          "params": [],
+          "moment": 51
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=48>), clbits=())",
+          "index": 86,
+          "operation": "cz",
+          "qubits": [
+            47,
+            48
+          ],
+          "params": [],
+          "moment": 51
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[3.141592653589793]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 81,
+          "operation": "rz",
+          "qubits": [
+            46
+          ],
+          "params": [
+            3.141592653589793
+          ],
+          "moment": 52
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 87,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 52
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-2.7488935718910694]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 88,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            -2.7488935718910694
+          ],
+          "moment": 53
+        }
+      ],
+      "layer_id": 17,
+      "moments": [
+        51,
+        52,
+        53
+      ],
+      "description": "2xsx, 1xcz, 2xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 89,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 54
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[3.1415926535897922]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 90,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            3.1415926535897922
+          ],
+          "moment": 55
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=48>), clbits=())",
+          "index": 91,
+          "operation": "cz",
+          "qubits": [
+            47,
+            48
+          ],
+          "params": [],
+          "moment": 56
+        }
+      ],
+      "layer_id": 18,
+      "moments": [
+        54,
+        55,
+        56
+      ],
+      "description": "1xsx, 1xrz, 1xcz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=46>), clbits=())",
+          "index": 92,
+          "operation": "cz",
+          "qubits": [
+            47,
+            46
+          ],
+          "params": [],
+          "moment": 57
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 102,
+          "operation": "sx",
+          "qubits": [
+            48
+          ],
+          "params": [],
+          "moment": 57
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 93,
+          "operation": "sx",
+          "qubits": [
+            46
+          ],
+          "params": [],
+          "moment": 58
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.178097245096172]), qubits=(<Qubit register=(156, \"q\"), index=48>,), clbits=())",
+          "index": 103,
+          "operation": "rz",
+          "qubits": [
+            48
+          ],
+          "params": [
+            1.178097245096172
+          ],
+          "moment": 58
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[-2.3561944901923457]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 94,
+          "operation": "rz",
+          "qubits": [
+            46
+          ],
+          "params": [
+            -2.3561944901923457
+          ],
+          "moment": 59
+        }
+      ],
+      "layer_id": 19,
+      "moments": [
+        57,
+        58,
+        59
+      ],
+      "description": "1xcz, 2xsx, 2xrz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 95,
+          "operation": "sx",
+          "qubits": [
+            46
+          ],
+          "params": [],
+          "moment": 60
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[3.141592653589793]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 96,
+          "operation": "rz",
+          "qubits": [
+            46
+          ],
+          "params": [
+            3.141592653589793
+          ],
+          "moment": 61
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='cz', num_qubits=2, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>, <Qubit register=(156, \"q\"), index=46>), clbits=())",
+          "index": 97,
+          "operation": "cz",
+          "qubits": [
+            47,
+            46
+          ],
+          "params": [],
+          "moment": 62
+        }
+      ],
+      "layer_id": 20,
+      "moments": [
+        60,
+        61,
+        62
+      ],
+      "description": "1xsx, 1xrz, 1xcz"
+    },
+    {
+      "instructions": [
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 98,
+          "operation": "sx",
+          "qubits": [
+            46
+          ],
+          "params": [],
+          "moment": 63
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='sx', num_qubits=1, num_clbits=0, params=[]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 100,
+          "operation": "sx",
+          "qubits": [
+            47
+          ],
+          "params": [],
+          "moment": 63
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[0.7853981633974483]), qubits=(<Qubit register=(156, \"q\"), index=46>,), clbits=())",
+          "index": 99,
+          "operation": "rz",
+          "qubits": [
+            46
+          ],
+          "params": [
+            0.7853981633974483
+          ],
+          "moment": 64
+        },
+        {
+          "instruction": "CircuitInstruction(operation=Instruction(name='rz', num_qubits=1, num_clbits=0, params=[1.5707963267948966]), qubits=(<Qubit register=(156, \"q\"), index=47>,), clbits=())",
+          "index": 101,
+          "operation": "rz",
+          "qubits": [
+            47
+          ],
+          "params": [
+            1.5707963267948966
+          ],
+          "moment": 64
+        }
+      ],
+      "layer_id": 21,
+      "moments": [
+        63,
+        64
+      ],
+      "description": "2xsx, 2xrz"
+    }
+  ],
+  "ddmin_log": [
+    {
+      "action": "baseline",
+      "kept": 22,
+      "ratio": 2.7357,
+      "noise_threshold": 0.1567,
+      "result": "ratio=2.736 > 1+tau=1.157, unmodeled error detected; starting DDMin on 22 segments"
+    },
+    {
+      "action": "test_complement",
+      "excluded": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "kept": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ratio": 2.0681,
+      "ratio_reliable": true,
+      "baseline_ratio": 2.7357,
+      "reduction": 0.6675,
+      "noise_threshold": 0.1567,
+      "progressed": true,
+      "result": "remove segs 7-21: drop=0.667 > tau=0.157 -> narrow to 7-21"
+    },
+    {
+      "action": "test_subset",
+      "excluded": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "kept": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "ratio": 1.7102,
+      "ratio_reliable": true,
+      "baseline_ratio": 2.7357,
+      "reduction": 1.0254,
+      "noise_threshold": 0.1567,
+      "progressed": true,
+      "result": "remove segs 7-14: drop=1.025 > tau=0.157 -> narrow to 7-14"
+    },
+    {
+      "action": "test_subset",
+      "excluded": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "kept": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "ratio": 1.5157,
+      "ratio_reliable": true,
+      "baseline_ratio": 2.7357,
+      "reduction": 1.22,
+      "noise_threshold": 0.1567,
+      "progressed": true,
+      "result": "remove segs 7-10: drop=1.220 > tau=0.157 -> narrow to 7-10"
+    },
+    {
+      "action": "test_subset",
+      "excluded": [
+        7,
+        8
+      ],
+      "kept": [
+        9,
+        10
+      ],
+      "ratio": 2.1571,
+      "ratio_reliable": true,
+      "baseline_ratio": 2.7357,
+      "reduction": 0.5786,
+      "noise_threshold": 0.1567,
+      "progressed": true,
+      "result": "remove segs 7-8: drop=0.579 > tau=0.157 -> narrow to 7-8"
+    },
+    {
+      "action": "test_subset",
+      "excluded": [
+        7
+      ],
+      "kept": [
+        8
+      ],
+      "ratio": 1.7299,
+      "ratio_reliable": true,
+      "baseline_ratio": 2.7357,
+      "reduction": 1.0057,
+      "noise_threshold": 0.1567,
+      "progressed": true,
+      "result": "remove segs 7: drop=1.006 > tau=0.157 -> narrow to 7"
+    }
+  ],
+  "oracle_log": [
+    {
+      "call": 1,
+      "excluded": [],
+      "expected_tvd": 0.05957,
+      "actual_tvd": 0.162964,
+      "noisy_vs_real": 0.127319,
+      "ratio": 2.735656,
+      "ratio_reliable": true,
+      "real_job_id": "darcrcbg95ks73ee64lg",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "0100": 1982,
+          "0111": 1972,
+          "1100": 1642,
+          "1110": 54,
+          "1111": 1735,
+          "1011": 148,
+          "0010": 86,
+          "0001": 23,
+          "1010": 143,
+          "0011": 86,
+          "0000": 131,
+          "1000": 67,
+          "1101": 45,
+          "0110": 19,
+          "0101": 23,
+          "1001": 36
+        },
+        "noisy": {
+          "0111": 1820,
+          "0100": 1814,
+          "1010": 117,
+          "1100": 1611,
+          "1000": 91,
+          "0010": 114,
+          "1001": 37,
+          "0101": 122,
+          "1111": 1628,
+          "1011": 144,
+          "0110": 141,
+          "0000": 154,
+          "1110": 128,
+          "0001": 29,
+          "0011": 105,
+          "1101": 137
+        },
+        "real": {
+          "0111": 2133,
+          "0100": 1217,
+          "1110": 218,
+          "1100": 1831,
+          "0101": 229,
+          "1111": 1204,
+          "0011": 129,
+          "1000": 122,
+          "0010": 111,
+          "0110": 233,
+          "1101": 224,
+          "0001": 48,
+          "1001": 67,
+          "0000": 174,
+          "1010": 127,
+          "1011": 125
+        }
+      }
+    },
+    {
+      "call": 2,
+      "excluded": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "expected_tvd": 0.024292,
+      "actual_tvd": 0.054932,
+      "noisy_vs_real": 0.052002,
+      "ratio": 2.261307,
+      "ratio_reliable": false,
+      "real_job_id": "darcriahcrkc73drfqtg",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "1011": 789,
+          "0110": 425,
+          "1000": 874,
+          "1110": 414,
+          "1010": 800,
+          "1111": 507,
+          "0001": 693,
+          "0010": 803,
+          "0111": 449,
+          "0011": 787,
+          "1001": 743,
+          "0000": 908
+        },
+        "noisy": {
+          "0111": 476,
+          "0000": 847,
+          "1000": 870,
+          "1011": 741,
+          "0011": 800,
+          "1100": 33,
+          "1001": 702,
+          "0001": 714,
+          "0010": 803,
+          "1010": 813,
+          "1110": 427,
+          "1111": 462,
+          "0110": 436,
+          "0101": 17,
+          "0100": 25,
+          "1101": 26
+        },
+        "real": {
+          "0010": 882,
+          "0000": 971,
+          "1111": 426,
+          "0001": 782,
+          "1001": 752,
+          "1011": 655,
+          "0011": 771,
+          "1010": 725,
+          "0100": 60,
+          "0110": 429,
+          "0111": 383,
+          "1000": 847,
+          "1101": 53,
+          "1110": 363,
+          "1100": 37,
+          "0101": 56
+        }
+      }
+    },
+    {
+      "call": 3,
+      "excluded": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "expected_tvd": 0.0354,
+      "actual_tvd": 0.152832,
+      "noisy_vs_real": 0.146606,
+      "ratio": 4.317241,
+      "ratio_reliable": false,
+      "real_job_id": "darcrrdvr3kc73eioj90",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "1011": 287,
+          "1110": 804,
+          "0111": 819,
+          "1010": 604,
+          "0010": 429,
+          "1100": 818,
+          "1000": 617,
+          "1101": 235,
+          "0101": 753,
+          "0011": 778,
+          "1001": 277,
+          "0100": 197,
+          "1111": 246,
+          "0000": 401,
+          "0110": 184,
+          "0001": 743
+        },
+        "noisy": {
+          "1110": 773,
+          "1001": 312,
+          "0101": 746,
+          "0011": 709,
+          "1010": 586,
+          "0111": 757,
+          "0001": 708,
+          "0100": 253,
+          "0000": 452,
+          "1100": 778,
+          "0010": 456,
+          "1000": 596,
+          "1011": 280,
+          "1101": 252,
+          "0110": 247,
+          "1111": 287
+        },
+        "real": {
+          "1001": 429,
+          "1111": 134,
+          "1110": 926,
+          "0001": 847,
+          "0101": 914,
+          "0010": 584,
+          "1101": 403,
+          "1010": 770,
+          "1000": 455,
+          "1100": 601,
+          "0100": 110,
+          "0110": 408,
+          "0111": 579,
+          "0011": 575,
+          "0000": 268,
+          "1011": 189
+        }
+      }
+    },
+    {
+      "call": 4,
+      "excluded": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "expected_tvd": 0.041138,
+      "actual_tvd": 0.137695,
+      "noisy_vs_real": 0.124878,
+      "ratio": 3.347181,
+      "ratio_reliable": true,
+      "real_job_id": "darcs1jojkfs738nveig",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "1111": 211,
+          "1100": 771,
+          "0010": 423,
+          "0011": 750,
+          "1000": 599,
+          "0101": 780,
+          "1001": 268,
+          "1010": 642,
+          "0001": 743,
+          "0100": 215,
+          "1110": 768,
+          "1101": 228,
+          "0000": 468,
+          "0111": 824,
+          "1011": 295,
+          "0110": 207
+        },
+        "noisy": {
+          "0001": 705,
+          "1100": 800,
+          "1000": 587,
+          "0111": 729,
+          "0101": 777,
+          "1001": 328,
+          "0000": 410,
+          "0110": 235,
+          "1110": 801,
+          "1010": 560,
+          "0011": 704,
+          "0010": 473,
+          "1011": 292,
+          "0100": 232,
+          "1101": 285,
+          "1111": 274
+        },
+        "real": {
+          "0001": 790,
+          "0000": 302,
+          "0110": 448,
+          "1110": 903,
+          "0101": 819,
+          "1001": 482,
+          "1000": 455,
+          "0011": 558,
+          "1101": 398,
+          "0010": 568,
+          "1010": 779,
+          "0111": 583,
+          "1111": 132,
+          "1100": 671,
+          "0100": 137,
+          "1011": 167
+        }
+      }
+    },
+    {
+      "call": 5,
+      "excluded": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "expected_tvd": 0.031738,
+      "actual_tvd": 0.054443,
+      "noisy_vs_real": 0.043091,
+      "ratio": 1.715385,
+      "ratio_reliable": false,
+      "real_job_id": "darcs4rg95ks73ee6680",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "1000": 900,
+          "0110": 413,
+          "1010": 799,
+          "1001": 726,
+          "1111": 434,
+          "0111": 481,
+          "0000": 853,
+          "1110": 428,
+          "0001": 741,
+          "0010": 774,
+          "0011": 776,
+          "1011": 867
+        },
+        "noisy": {
+          "1011": 748,
+          "0111": 464,
+          "1111": 467,
+          "0011": 789,
+          "0000": 904,
+          "1001": 737,
+          "0001": 774,
+          "0110": 408,
+          "1000": 818,
+          "1110": 391,
+          "0010": 792,
+          "1010": 806,
+          "1101": 21,
+          "0101": 22,
+          "1100": 25,
+          "0100": 26
+        },
+        "real": {
+          "1000": 910,
+          "0001": 717,
+          "1011": 633,
+          "0010": 837,
+          "1001": 814,
+          "0110": 409,
+          "0111": 409,
+          "1111": 377,
+          "1110": 396,
+          "1010": 806,
+          "0011": 753,
+          "0000": 923,
+          "0101": 58,
+          "0100": 61,
+          "1101": 47,
+          "1100": 42
+        }
+      }
+    },
+    {
+      "call": 6,
+      "excluded": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "expected_tvd": 0.033936,
+      "actual_tvd": 0.158813,
+      "noisy_vs_real": 0.137939,
+      "ratio": 4.679856,
+      "ratio_reliable": false,
+      "real_job_id": "darcs92hcrkc73drfrtg",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "1101": 477,
+          "1111": 900,
+          "0110": 267,
+          "0101": 1381,
+          "0000": 100,
+          "0010": 330,
+          "1010": 362,
+          "1100": 518,
+          "0100": 1663,
+          "1011": 396,
+          "0011": 352,
+          "1000": 141,
+          "1110": 786,
+          "1001": 121,
+          "0111": 336,
+          "0001": 62
+        },
+        "noisy": {
+          "0100": 1498,
+          "1100": 582,
+          "1111": 877,
+          "1011": 372,
+          "0101": 1415,
+          "1110": 783,
+          "0111": 334,
+          "0000": 128,
+          "1101": 498,
+          "0110": 312,
+          "1010": 372,
+          "0010": 305,
+          "0001": 114,
+          "0011": 328,
+          "1000": 165,
+          "1001": 109
+        },
+        "real": {
+          "1100": 672,
+          "0110": 641,
+          "0111": 770,
+          "1110": 685,
+          "1011": 291,
+          "0000": 213,
+          "0101": 1041,
+          "0011": 321,
+          "0010": 360,
+          "0100": 1198,
+          "1000": 134,
+          "1010": 327,
+          "1111": 683,
+          "1001": 124,
+          "1101": 536,
+          "0001": 196
+        }
+      }
+    },
+    {
+      "call": 7,
+      "excluded": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "expected_tvd": 0.039429,
+      "actual_tvd": 0.081543,
+      "noisy_vs_real": 0.042114,
+      "ratio": 2.068111,
+      "ratio_reliable": true,
+      "real_job_id": "darcsc3g95ks73ee66k0",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "1000": 2875,
+          "1011": 2857,
+          "1001": 360,
+          "1100": 790,
+          "1111": 765,
+          "1101": 99,
+          "1010": 364,
+          "1110": 82
+        },
+        "noisy": {
+          "1011": 2779,
+          "1111": 725,
+          "1100": 735,
+          "1000": 2725,
+          "0011": 70,
+          "1010": 387,
+          "1001": 408,
+          "1101": 122,
+          "0111": 18,
+          "1110": 115,
+          "0100": 19,
+          "0000": 65,
+          "0010": 8,
+          "0001": 12,
+          "0101": 2,
+          "0110": 2
+        },
+        "real": {
+          "1011": 2668,
+          "0011": 123,
+          "0000": 82,
+          "1000": 2541,
+          "1110": 127,
+          "1111": 725,
+          "1100": 685,
+          "1001": 513,
+          "0111": 40,
+          "1010": 416,
+          "1101": 136,
+          "0100": 31,
+          "0001": 33,
+          "0010": 49,
+          "0110": 16,
+          "0101": 7
+        }
+      }
+    },
+    {
+      "call": 8,
+      "excluded": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "expected_tvd": 0.05603,
+      "actual_tvd": 0.095825,
+      "noisy_vs_real": 0.048462,
+      "ratio": 1.71024,
+      "ratio_reliable": true,
+      "real_job_id": "darcsfahcrkc73drfs8g",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "1011": 692,
+          "1111": 4333,
+          "1110": 787,
+          "1100": 284,
+          "1101": 1076,
+          "1001": 319,
+          "1010": 686,
+          "1000": 15
+        },
+        "noisy": {
+          "1011": 754,
+          "1111": 3988,
+          "0010": 20,
+          "1100": 356,
+          "1101": 1004,
+          "1010": 644,
+          "0101": 34,
+          "1110": 854,
+          "1001": 332,
+          "1000": 61,
+          "0111": 74,
+          "0011": 16,
+          "0100": 24,
+          "0110": 21,
+          "0000": 5,
+          "0001": 5
+        },
+        "real": {
+          "1110": 856,
+          "1111": 3661,
+          "1011": 791,
+          "1001": 338,
+          "1000": 88,
+          "1010": 721,
+          "1100": 327,
+          "1101": 963,
+          "0100": 92,
+          "0101": 56,
+          "0010": 28,
+          "0000": 46,
+          "0111": 133,
+          "0110": 41,
+          "0001": 18,
+          "0011": 33
+        }
+      }
+    },
+    {
+      "call": 9,
+      "excluded": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "expected_tvd": 0.066284,
+      "actual_tvd": 0.100464,
+      "noisy_vs_real": 0.047852,
+      "ratio": 1.515654,
+      "ratio_reliable": true,
+      "real_job_id": "darcsijojkfs738nvfag",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "0000": 2096,
+          "0011": 1082,
+          "1010": 281,
+          "1011": 293,
+          "1110": 475,
+          "0010": 1109,
+          "0111": 1866,
+          "1001": 537,
+          "0110": 301,
+          "1111": 97,
+          "1000": 47,
+          "0001": 8
+        },
+        "noisy": {
+          "0011": 1085,
+          "0000": 1929,
+          "1001": 495,
+          "1111": 179,
+          "0010": 1075,
+          "1010": 302,
+          "1011": 329,
+          "1101": 14,
+          "0111": 1623,
+          "0110": 393,
+          "1110": 418,
+          "1000": 117,
+          "0101": 47,
+          "0001": 117,
+          "0100": 50,
+          "1100": 19
+        },
+        "real": {
+          "0111": 1446,
+          "0011": 1159,
+          "0101": 64,
+          "1011": 388,
+          "0000": 1911,
+          "0010": 1102,
+          "0110": 349,
+          "1110": 359,
+          "1000": 154,
+          "0100": 112,
+          "1111": 159,
+          "1001": 478,
+          "1010": 245,
+          "0001": 157,
+          "1100": 60,
+          "1101": 49
+        }
+      }
+    },
+    {
+      "call": 10,
+      "excluded": [
+        7,
+        8
+      ],
+      "expected_tvd": 0.061401,
+      "actual_tvd": 0.132446,
+      "noisy_vs_real": 0.07312,
+      "ratio": 2.157058,
+      "ratio_reliable": true,
+      "real_job_id": "darcsn5vr3kc73eiokdg",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "0111": 4528,
+          "1111": 869,
+          "0110": 912,
+          "0011": 43,
+          "1110": 1238,
+          "1010": 131,
+          "1000": 213,
+          "1011": 117,
+          "0010": 41,
+          "0001": 60,
+          "0000": 37,
+          "1001": 3
+        },
+        "noisy": {
+          "0111": 4121,
+          "1001": 22,
+          "0110": 1007,
+          "1110": 1149,
+          "0011": 102,
+          "1111": 869,
+          "1100": 64,
+          "1010": 144,
+          "1000": 227,
+          "0000": 56,
+          "0001": 53,
+          "1011": 127,
+          "0100": 74,
+          "0010": 74,
+          "0101": 78,
+          "1101": 25
+        },
+        "real": {
+          "0111": 3694,
+          "0110": 1011,
+          "1111": 945,
+          "1000": 248,
+          "1110": 1001,
+          "0101": 149,
+          "1010": 151,
+          "0010": 132,
+          "0100": 163,
+          "1100": 139,
+          "1011": 103,
+          "0001": 85,
+          "0011": 111,
+          "0000": 78,
+          "1001": 48,
+          "1101": 134
+        }
+      }
+    },
+    {
+      "call": 11,
+      "excluded": [
+        7
+      ],
+      "expected_tvd": 0.045654,
+      "actual_tvd": 0.078979,
+      "noisy_vs_real": 0.056152,
+      "ratio": 1.729947,
+      "ratio_reliable": true,
+      "real_job_id": "darcsqjojkfs738nvfl0",
+      "qpu_seconds": 4.0,
+      "counts": {
+        "ideal": {
+          "0111": 2060,
+          "1110": 579,
+          "1111": 692,
+          "0110": 525,
+          "0100": 1976,
+          "0101": 495,
+          "1101": 586,
+          "1100": 679,
+          "1010": 191,
+          "1011": 215,
+          "0011": 107,
+          "0010": 87
+        },
+        "noisy": {
+          "0110": 582,
+          "1111": 698,
+          "1100": 693,
+          "0111": 1819,
+          "0100": 1846,
+          "1110": 621,
+          "1010": 202,
+          "0011": 142,
+          "0101": 530,
+          "1001": 8,
+          "1101": 622,
+          "1011": 212,
+          "0010": 140,
+          "1000": 31,
+          "0001": 9,
+          "0000": 37
+        },
+        "real": {
+          "0110": 641,
+          "1101": 559,
+          "1010": 212,
+          "0111": 1933,
+          "0100": 1657,
+          "1100": 637,
+          "1110": 666,
+          "1001": 41,
+          "1111": 560,
+          "0101": 553,
+          "0001": 36,
+          "0011": 192,
+          "1011": 265,
+          "0010": 126,
+          "1000": 50,
+          "0000": 64
+        }
+      }
+    }
+  ],
+  "oracle_calls": 11,
+  "truncated": false,
+  "options": {
+    "protected_segments": [
+      0
+    ],
+    "clamp_threshold": true,
+    "max_oracle_calls": 30
+  }
+}

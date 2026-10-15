@@ -1,0 +1,372 @@
+{
+  "selected": {
+    "hit_0": [
+      {
+        "variant_index": 1,
+        "n_swaps": 20,
+        "seed": 80,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw20_s80.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw20_s80.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      },
+      {
+        "variant_index": 2,
+        "n_swaps": 50,
+        "seed": 260,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw50_s260.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw50_s260.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      },
+      {
+        "variant_index": 3,
+        "n_swaps": 100,
+        "seed": 399,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw100_s399.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw100_s399.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      },
+      {
+        "variant_index": 4,
+        "n_swaps": 200,
+        "seed": 382,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw200_s382.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw200_s382.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      },
+      {
+        "variant_index": 5,
+        "n_swaps": 500,
+        "seed": 408,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw500_s408.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw500_s408.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      },
+      {
+        "variant_index": 6,
+        "n_swaps": 500,
+        "seed": 120,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw500_s120.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw500_s120.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      },
+      {
+        "variant_index": 7,
+        "n_swaps": 500,
+        "seed": 54,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw500_s54.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw500_s54.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      },
+      {
+        "variant_index": 8,
+        "n_swaps": 500,
+        "seed": 253,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw500_s253.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw500_s253.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      },
+      {
+        "variant_index": 9,
+        "n_swaps": 500,
+        "seed": 248,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw500_s248.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw500_s248.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      },
+      {
+        "variant_index": 10,
+        "n_swaps": 500,
+        "seed": 447,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_0/marrakesh_3x_new_hit0_sw500_s447.qpy",
+        "qpy_name": "marrakesh_3x_new_hit0_sw500_s447.qpy",
+        "op_count": 474,
+        "total_hits": 0
+      }
+    ],
+    "hit_1": [
+      {
+        "variant_index": 1,
+        "n_swaps": 5,
+        "seed": 104,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw5_s104.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw5_s104.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      },
+      {
+        "variant_index": 2,
+        "n_swaps": 10,
+        "seed": 243,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw10_s243.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw10_s243.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      },
+      {
+        "variant_index": 3,
+        "n_swaps": 20,
+        "seed": 371,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw20_s371.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw20_s371.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      },
+      {
+        "variant_index": 4,
+        "n_swaps": 50,
+        "seed": 53,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw50_s53.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw50_s53.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      },
+      {
+        "variant_index": 5,
+        "n_swaps": 100,
+        "seed": 299,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw100_s299.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw100_s299.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      },
+      {
+        "variant_index": 6,
+        "n_swaps": 200,
+        "seed": 179,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw200_s179.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw200_s179.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      },
+      {
+        "variant_index": 7,
+        "n_swaps": 500,
+        "seed": 446,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw500_s446.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw500_s446.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      },
+      {
+        "variant_index": 8,
+        "n_swaps": 200,
+        "seed": 407,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw200_s407.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw200_s407.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      },
+      {
+        "variant_index": 9,
+        "n_swaps": 50,
+        "seed": 74,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw50_s74.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw50_s74.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      },
+      {
+        "variant_index": 10,
+        "n_swaps": 200,
+        "seed": 282,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_1/marrakesh_3x_new_hit1_sw200_s282.qpy",
+        "qpy_name": "marrakesh_3x_new_hit1_sw200_s282.qpy",
+        "op_count": 474,
+        "total_hits": 1
+      }
+    ],
+    "hit_2": [
+      {
+        "variant_index": 1,
+        "n_swaps": 1,
+        "seed": 14,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw1_s14.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw1_s14.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      },
+      {
+        "variant_index": 2,
+        "n_swaps": 2,
+        "seed": 89,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw2_s89.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw2_s89.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      },
+      {
+        "variant_index": 3,
+        "n_swaps": 3,
+        "seed": 244,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw3_s244.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw3_s244.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      },
+      {
+        "variant_index": 4,
+        "n_swaps": 5,
+        "seed": 79,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw5_s79.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw5_s79.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      },
+      {
+        "variant_index": 5,
+        "n_swaps": 10,
+        "seed": 14,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw10_s14.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw10_s14.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      },
+      {
+        "variant_index": 6,
+        "n_swaps": 20,
+        "seed": 28,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw20_s28.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw20_s28.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      },
+      {
+        "variant_index": 7,
+        "n_swaps": 50,
+        "seed": 253,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw50_s253.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw50_s253.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      },
+      {
+        "variant_index": 8,
+        "n_swaps": 100,
+        "seed": 135,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw100_s135.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw100_s135.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      },
+      {
+        "variant_index": 9,
+        "n_swaps": 200,
+        "seed": 49,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw200_s49.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw200_s49.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      },
+      {
+        "variant_index": 10,
+        "n_swaps": 500,
+        "seed": 407,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_2/marrakesh_3x_new_hit2_sw500_s407.qpy",
+        "qpy_name": "marrakesh_3x_new_hit2_sw500_s407.qpy",
+        "op_count": 474,
+        "total_hits": 2
+      }
+    ],
+    "hit_3": [
+      {
+        "variant_index": 1,
+        "n_swaps": 1,
+        "seed": 51,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw1_s51.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw1_s51.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      },
+      {
+        "variant_index": 2,
+        "n_swaps": 2,
+        "seed": 464,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw2_s464.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw2_s464.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      },
+      {
+        "variant_index": 3,
+        "n_swaps": 3,
+        "seed": 299,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw3_s299.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw3_s299.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      },
+      {
+        "variant_index": 4,
+        "n_swaps": 5,
+        "seed": 190,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw5_s190.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw5_s190.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      },
+      {
+        "variant_index": 5,
+        "n_swaps": 10,
+        "seed": 40,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw10_s40.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw10_s40.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      },
+      {
+        "variant_index": 6,
+        "n_swaps": 20,
+        "seed": 118,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw20_s118.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw20_s118.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      },
+      {
+        "variant_index": 7,
+        "n_swaps": 50,
+        "seed": 47,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw50_s47.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw50_s47.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      },
+      {
+        "variant_index": 8,
+        "n_swaps": 100,
+        "seed": 31,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw100_s31.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw100_s31.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      },
+      {
+        "variant_index": 9,
+        "n_swaps": 200,
+        "seed": 185,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw200_s185.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw200_s185.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      },
+      {
+        "variant_index": 10,
+        "n_swaps": 5,
+        "seed": 108,
+        "qpy_path": "artifacts/grover3-marrakesh-O3-6_7_8_17/variants/verify/hit_3/marrakesh_3x_new_hit3_sw5_s108.qpy",
+        "qpy_name": "marrakesh_3x_new_hit3_sw5_s108.qpy",
+        "op_count": 474,
+        "total_hits": 3
+      }
+    ]
+  }
+}

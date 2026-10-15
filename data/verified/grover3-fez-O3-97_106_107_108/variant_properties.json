@@ -1,0 +1,610 @@
+{
+  "hit_0": [
+    {
+      "depth": 319,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw10_s324.qpy"
+    },
+    {
+      "depth": 316,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw500_s441.qpy"
+    },
+    {
+      "depth": 318,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw500_s47.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw200_s84.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw200_s486.qpy"
+    },
+    {
+      "depth": 318,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw50_s84.qpy"
+    },
+    {
+      "depth": 322,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw100_s320.qpy"
+    },
+    {
+      "depth": 318,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw500_s89.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw20_s120.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit0_sw500_s470.qpy"
+    }
+  ],
+  "hit_1": [
+    {
+      "depth": 317,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw200_s17.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw20_s150.qpy"
+    },
+    {
+      "depth": 319,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw10_s99.qpy"
+    },
+    {
+      "depth": 316,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw100_s96.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw200_s64.qpy"
+    },
+    {
+      "depth": 319,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw500_s196.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw200_s244.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw50_s407.qpy"
+    },
+    {
+      "depth": 321,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw200_s4.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit1_sw5_s318.qpy"
+    }
+  ],
+  "hit_2": [
+    {
+      "depth": 317,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw50_s231.qpy"
+    },
+    {
+      "depth": 321,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw200_s131.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw10_s203.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw5_s225.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw3_s265.qpy"
+    },
+    {
+      "depth": 319,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw50_s476.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw20_s103.qpy"
+    },
+    {
+      "depth": 319,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw50_s404.qpy"
+    },
+    {
+      "depth": 319,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw500_s348.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit2_sw100_s493.qpy"
+    }
+  ],
+  "hit_3": [
+    {
+      "depth": 321,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw5_s456.qpy"
+    },
+    {
+      "depth": 321,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw3_s48.qpy"
+    },
+    {
+      "depth": 319,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw20_s310.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw2_s109.qpy"
+    },
+    {
+      "depth": 322,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw50_s271.qpy"
+    },
+    {
+      "depth": 321,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw100_s46.qpy"
+    },
+    {
+      "depth": 321,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw500_s311.qpy"
+    },
+    {
+      "depth": 320,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw1_s1.qpy"
+    },
+    {
+      "depth": 321,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw10_s264.qpy"
+    },
+    {
+      "depth": 319,
+      "num_gates": 456,
+      "num_qubits": 156,
+      "gate_counts": {
+        "rz": 174,
+        "sx": 189,
+        "cz": 84,
+        "x": 6,
+        "measure": 3
+      },
+      "max_qubit_depth": 310,
+      "min_qubit_depth": 67,
+      "file": "grover3x_hit3_sw200_s499.qpy"
+    }
+  ]
+}

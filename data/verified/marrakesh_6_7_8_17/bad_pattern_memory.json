@@ -1,0 +1,59 @@
+{
+  "backend": "ibm_marrakesh",
+  "layout": [6, 7, 8, 17],
+  "moments_per_segment": 3,
+  "segment_offset": 0,
+  "discovery_reports": [
+    "ddmin_reports/ibm_marrakesh_20251118_102315.json",
+    "ddmin_reports/ibm_marrakesh_20251129_153042.json",
+    "ddmin_reports/ibm_marrakesh_20251212_091827.json",
+    "ddmin_reports/ibm_marrakesh_20251226_141505.json",
+    "ddmin_reports/ibm_marrakesh_20260115_110933.json",
+    "ddmin_reports/ibm_marrakesh_20260205_163221.json",
+    "ddmin_reports/ibm_marrakesh_20260318_094718.json",
+    "ddmin_reports/ibm_marrakesh_20260403_142231.json",
+    "ddmin_reports/ibm_marrakesh_20260409_011326.json",
+    "ddmin_reports/ibm_marrakesh_20260413_094512.json"
+  ],
+  "patterns": [
+    {
+      "id": "p1_rz_x_rz_cz_q7_8",
+      "occurrences": 10,
+      "verified": true,
+      "description": "Linear-sequence pattern: rz rotation on qubit 7, x+rz preparation on qubit 8, followed by CZ interaction",
+      "tokens": [
+        ["rz", [7], [3.141593]],
+        ["x", [8]],
+        ["rz", [8], [-2.748894]],
+        ["cz", [8, 7]]
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "seg7_moment",
+      "segment": 7,
+      "occurrences": 10,
+      "verified": false,
+      "description": "Moment-level segment containing rz(7)->cz(8,7) core interaction",
+      "moments": [21, 22, 23],
+      "tokens": [
+        ["rz", [7], [3.141593]],
+        ["cz", [8, 7]],
+        ["sx", [7]]
+      ]
+    },
+    {
+      "id": "seg8",
+      "segment": 8,
+      "occurrences": 2,
+      "verified": false,
+      "moments": [24, 25, 26],
+      "tokens": [
+        ["rz", [7], [-2.748894]],
+        ["sx", [7]],
+        ["cz", [6, 7]]
+      ]
+    }
+  ]
+}

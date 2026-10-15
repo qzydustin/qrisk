@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-03-12T10:53:26",
+  "baseline_ratio": 1.25,
+  "noise_threshold": 0.08,
+  "problematic_segments": [
+    5
+  ],
+  "problematic_details": [
+    {
+      "layer_id": 5,
+      "moments": [
+        14,
+        15,
+        16
+      ],
+      "description": "2xsx, 1xrz, 1xcz",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            108
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            0.392699
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            108,
+            107
+          ]
+        }
+      ]
+    }
+  ],
+  "ddmin_steps": [
+    {
+      "step": 1,
+      "action": "baseline",
+      "kept": 36,
+      "ratio": 1.25,
+      "result": "ratio=1.25 > 1+tau=1.08, starting DDMin"
+    },
+    {
+      "step": 2,
+      "action": "narrow",
+      "kept": 18,
+      "ratio": 0.99,
+      "drop": 0.26,
+      "result": "remove 0-17: drop=0.26 > tau -> narrow to 0-17"
+    },
+    {
+      "step": 3,
+      "action": "sufficient",
+      "kept": 9,
+      "ratio": 1.18,
+      "result": "keep 0-8: ratio=1.18 > 1+tau -> sufficient, narrow to 0-8"
+    },
+    {
+      "step": 4,
+      "action": "narrow",
+      "kept": 5,
+      "ratio": 1.15,
+      "drop": 0.1,
+      "result": "remove 6-8: drop=0.10 > tau -> narrow to 4-6"
+    },
+    {
+      "step": 5,
+      "action": "narrow",
+      "kept": 3,
+      "ratio": 1.12,
+      "drop": 0.13,
+      "result": "remove 4,6: drop=0.13 > tau -> narrow to 4-5"
+    },
+    {
+      "step": 6,
+      "action": "sufficient",
+      "kept": 1,
+      "ratio": 1.1,
+      "result": "keep 5: ratio=1.10 > 1+tau -> sufficient, converged to [5]"
+    }
+  ]
+}

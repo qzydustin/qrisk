@@ -1,0 +1,457 @@
+{
+  "experiment": "grover3x_fez_commuting_swap",
+  "backend": "ibm_fez",
+  "base_circuit": "artifacts/grover3-fez-O3-97_106_107_108/grover3x_fez.qpy",
+  "pattern_db": "artifacts/grover3-fez-O3-97_106_107_108/bad_pattern_memory.json",
+  "total_selected": 40,
+  "selected": {
+    "hit_0": [
+      {
+        "variant_index": 1,
+        "n_swaps": 100,
+        "seed": 320,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw100_s320.qpy",
+        "qpy_name": "grover3x_hit0_sw100_s320.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      },
+      {
+        "variant_index": 2,
+        "n_swaps": 10,
+        "seed": 324,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw10_s324.qpy",
+        "qpy_name": "grover3x_hit0_sw10_s324.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      },
+      {
+        "variant_index": 3,
+        "n_swaps": 200,
+        "seed": 486,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw200_s486.qpy",
+        "qpy_name": "grover3x_hit0_sw200_s486.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      },
+      {
+        "variant_index": 4,
+        "n_swaps": 200,
+        "seed": 84,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw200_s84.qpy",
+        "qpy_name": "grover3x_hit0_sw200_s84.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      },
+      {
+        "variant_index": 5,
+        "n_swaps": 20,
+        "seed": 120,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw20_s120.qpy",
+        "qpy_name": "grover3x_hit0_sw20_s120.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      },
+      {
+        "variant_index": 6,
+        "n_swaps": 500,
+        "seed": 441,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw500_s441.qpy",
+        "qpy_name": "grover3x_hit0_sw500_s441.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      },
+      {
+        "variant_index": 7,
+        "n_swaps": 500,
+        "seed": 47,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw500_s47.qpy",
+        "qpy_name": "grover3x_hit0_sw500_s47.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      },
+      {
+        "variant_index": 8,
+        "n_swaps": 500,
+        "seed": 470,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw500_s470.qpy",
+        "qpy_name": "grover3x_hit0_sw500_s470.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      },
+      {
+        "variant_index": 9,
+        "n_swaps": 500,
+        "seed": 89,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw500_s89.qpy",
+        "qpy_name": "grover3x_hit0_sw500_s89.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      },
+      {
+        "variant_index": 10,
+        "n_swaps": 50,
+        "seed": 84,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_0/grover3x_hit0_sw50_s84.qpy",
+        "qpy_name": "grover3x_hit0_sw50_s84.qpy",
+        "op_count": 453,
+        "total_hits": 0,
+        "distinct_hits": 0,
+        "weighted_hits": 0
+      }
+    ],
+    "hit_1": [
+      {
+        "variant_index": 1,
+        "n_swaps": 100,
+        "seed": 96,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw100_s96.qpy",
+        "qpy_name": "grover3x_hit1_sw100_s96.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      },
+      {
+        "variant_index": 2,
+        "n_swaps": 10,
+        "seed": 99,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw10_s99.qpy",
+        "qpy_name": "grover3x_hit1_sw10_s99.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      },
+      {
+        "variant_index": 3,
+        "n_swaps": 200,
+        "seed": 17,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw200_s17.qpy",
+        "qpy_name": "grover3x_hit1_sw200_s17.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      },
+      {
+        "variant_index": 4,
+        "n_swaps": 200,
+        "seed": 244,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw200_s244.qpy",
+        "qpy_name": "grover3x_hit1_sw200_s244.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      },
+      {
+        "variant_index": 5,
+        "n_swaps": 200,
+        "seed": 4,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw200_s4.qpy",
+        "qpy_name": "grover3x_hit1_sw200_s4.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      },
+      {
+        "variant_index": 6,
+        "n_swaps": 200,
+        "seed": 64,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw200_s64.qpy",
+        "qpy_name": "grover3x_hit1_sw200_s64.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      },
+      {
+        "variant_index": 7,
+        "n_swaps": 20,
+        "seed": 150,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw20_s150.qpy",
+        "qpy_name": "grover3x_hit1_sw20_s150.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      },
+      {
+        "variant_index": 8,
+        "n_swaps": 500,
+        "seed": 196,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw500_s196.qpy",
+        "qpy_name": "grover3x_hit1_sw500_s196.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      },
+      {
+        "variant_index": 9,
+        "n_swaps": 50,
+        "seed": 407,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw50_s407.qpy",
+        "qpy_name": "grover3x_hit1_sw50_s407.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      },
+      {
+        "variant_index": 10,
+        "n_swaps": 5,
+        "seed": 318,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_1/grover3x_hit1_sw5_s318.qpy",
+        "qpy_name": "grover3x_hit1_sw5_s318.qpy",
+        "op_count": 453,
+        "total_hits": 1,
+        "distinct_hits": 1,
+        "weighted_hits": 4
+      }
+    ],
+    "hit_2": [
+      {
+        "variant_index": 1,
+        "n_swaps": 100,
+        "seed": 493,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw100_s493.qpy",
+        "qpy_name": "grover3x_hit2_sw100_s493.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      },
+      {
+        "variant_index": 2,
+        "n_swaps": 10,
+        "seed": 203,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw10_s203.qpy",
+        "qpy_name": "grover3x_hit2_sw10_s203.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      },
+      {
+        "variant_index": 3,
+        "n_swaps": 200,
+        "seed": 131,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw200_s131.qpy",
+        "qpy_name": "grover3x_hit2_sw200_s131.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      },
+      {
+        "variant_index": 4,
+        "n_swaps": 20,
+        "seed": 103,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw20_s103.qpy",
+        "qpy_name": "grover3x_hit2_sw20_s103.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      },
+      {
+        "variant_index": 5,
+        "n_swaps": 3,
+        "seed": 265,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw3_s265.qpy",
+        "qpy_name": "grover3x_hit2_sw3_s265.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      },
+      {
+        "variant_index": 6,
+        "n_swaps": 500,
+        "seed": 348,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw500_s348.qpy",
+        "qpy_name": "grover3x_hit2_sw500_s348.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      },
+      {
+        "variant_index": 7,
+        "n_swaps": 50,
+        "seed": 231,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw50_s231.qpy",
+        "qpy_name": "grover3x_hit2_sw50_s231.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      },
+      {
+        "variant_index": 8,
+        "n_swaps": 50,
+        "seed": 404,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw50_s404.qpy",
+        "qpy_name": "grover3x_hit2_sw50_s404.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      },
+      {
+        "variant_index": 9,
+        "n_swaps": 50,
+        "seed": 476,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw50_s476.qpy",
+        "qpy_name": "grover3x_hit2_sw50_s476.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      },
+      {
+        "variant_index": 10,
+        "n_swaps": 5,
+        "seed": 225,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_2/grover3x_hit2_sw5_s225.qpy",
+        "qpy_name": "grover3x_hit2_sw5_s225.qpy",
+        "op_count": 453,
+        "total_hits": 2,
+        "distinct_hits": 1,
+        "weighted_hits": 8
+      }
+    ],
+    "hit_3": [
+      {
+        "variant_index": 1,
+        "n_swaps": 100,
+        "seed": 46,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw100_s46.qpy",
+        "qpy_name": "grover3x_hit3_sw100_s46.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      },
+      {
+        "variant_index": 2,
+        "n_swaps": 10,
+        "seed": 264,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw10_s264.qpy",
+        "qpy_name": "grover3x_hit3_sw10_s264.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      },
+      {
+        "variant_index": 3,
+        "n_swaps": 1,
+        "seed": 1,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw1_s1.qpy",
+        "qpy_name": "grover3x_hit3_sw1_s1.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      },
+      {
+        "variant_index": 4,
+        "n_swaps": 200,
+        "seed": 499,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw200_s499.qpy",
+        "qpy_name": "grover3x_hit3_sw200_s499.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      },
+      {
+        "variant_index": 5,
+        "n_swaps": 20,
+        "seed": 310,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw20_s310.qpy",
+        "qpy_name": "grover3x_hit3_sw20_s310.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      },
+      {
+        "variant_index": 6,
+        "n_swaps": 2,
+        "seed": 109,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw2_s109.qpy",
+        "qpy_name": "grover3x_hit3_sw2_s109.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      },
+      {
+        "variant_index": 7,
+        "n_swaps": 3,
+        "seed": 48,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw3_s48.qpy",
+        "qpy_name": "grover3x_hit3_sw3_s48.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      },
+      {
+        "variant_index": 8,
+        "n_swaps": 500,
+        "seed": 311,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw500_s311.qpy",
+        "qpy_name": "grover3x_hit3_sw500_s311.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      },
+      {
+        "variant_index": 9,
+        "n_swaps": 50,
+        "seed": 271,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw50_s271.qpy",
+        "qpy_name": "grover3x_hit3_sw50_s271.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      },
+      {
+        "variant_index": 10,
+        "n_swaps": 5,
+        "seed": 456,
+        "qpy_path": "artifacts/grover3-fez-O3-97_106_107_108/variants/verify/hit_3/grover3x_hit3_sw5_s456.qpy",
+        "qpy_name": "grover3x_hit3_sw5_s456.qpy",
+        "op_count": 453,
+        "total_hits": 3,
+        "distinct_hits": 1,
+        "weighted_hits": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "backend": "ibm_fez",
+  "layout": [97, 106, 107, 108],
+  "moments_per_segment": 3,
+  "segment_offset": 2,
+  "discovery_reports": [
+    "ddmin_reports/ibm_fez_20251115_143208.json",
+    "ddmin_reports/ibm_fez_20251128_091842.json",
+    "ddmin_reports/ibm_fez_20251210_164533.json",
+    "ddmin_reports/ibm_fez_20251222_112215.json",
+    "ddmin_reports/ibm_fez_20260109_101547.json",
+    "ddmin_reports/ibm_fez_20260127_092851.json",
+    "ddmin_reports/ibm_fez_20260212_094319.json",
+    "ddmin_reports/ibm_fez_20260225_141237.json",
+    "ddmin_reports/ibm_fez_20260304_202918.json",
+    "ddmin_reports/ibm_fez_20260312_105326.json"
+  ],
+  "patterns": [
+    {
+      "id": "p1_sx_rz_sx_cz_q107_108",
+      "segment": 5,
+      "occurrences": 8,
+      "verified": true,
+      "moments": [14, 15, 16],
+      "tokens": [
+        ["sx", [107]],
+        ["rz", [107], [0.392699]],
+        ["sx", [108]],
+        ["cz", [108, 107]]
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "seg4",
+      "segment": 4,
+      "occurrences": 2,
+      "verified": false,
+      "moments": [11, 12, 13],
+      "tokens": [
+        ["rz", [97], [-2.748894]],
+        ["rz", [107], [2.771693]],
+        ["sx", [107]],
+        ["cz", [108, 107]]
+      ]
+    },
+    {
+      "id": "seg6",
+      "segment": 6,
+      "occurrences": 2,
+      "verified": false,
+      "moments": [17, 18, 19],
+      "tokens": [
+        ["sx", [107]],
+        ["sx", [108]],
+        ["cz", [97, 107]],
+        ["rz", [108], [0.762599]],
+        ["sx", [107]]
+      ]
+    },
+    {
+      "id": "seg3",
+      "segment": 3,
+      "occurrences": 1,
+      "verified": false,
+      "moments": [8, 9, 10],
+      "tokens": [
+        ["sx", [107]],
+        ["cz", [97, 107]],
+        ["x", [97]],
+        ["sx", [107]]
+      ]
+    }
+  ]
+}

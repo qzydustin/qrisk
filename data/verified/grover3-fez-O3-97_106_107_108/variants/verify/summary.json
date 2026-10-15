@@ -1,0 +1,382 @@
+{
+  "experiment": "grover3x_fez_scaling",
+  "backend": "ibm_fez",
+  "layout": [
+    97,
+    106,
+    107,
+    108
+  ],
+  "pattern": "sx(107) -> rz(107, 0.392699) -> sx(108) -> cz(108,107)",
+  "shots": 8192,
+  "buckets": {
+    "hit_0": {
+      "stats": {
+        "count": 10,
+        "mean": 0.05032,
+        "std": 0.006737,
+        "min": 0.0437,
+        "max": 0.068,
+        "median": 0.04905
+      },
+      "completed": [
+        {
+          "pattern_hits": 0,
+          "n_swaps": 26,
+          "tvd_ideal_vs_real": 0.1581,
+          "tvd_noisy_vs_real": 0.068,
+          "tvd_ideal_vs_noisy": 0.1038,
+          "real_job_id": "d72ftae..."
+        },
+        {
+          "pattern_hits": 0,
+          "n_swaps": 31,
+          "tvd_ideal_vs_real": 0.1411,
+          "tvd_noisy_vs_real": 0.0494,
+          "tvd_ideal_vs_noisy": 0.1088,
+          "real_job_id": "d72fthm..."
+        },
+        {
+          "pattern_hits": 0,
+          "n_swaps": 37,
+          "tvd_ideal_vs_real": 0.1508,
+          "tvd_noisy_vs_real": 0.052,
+          "tvd_ideal_vs_noisy": 0.1123,
+          "real_job_id": "d72ftn6..."
+        },
+        {
+          "pattern_hits": 0,
+          "n_swaps": 43,
+          "tvd_ideal_vs_real": 0.1383,
+          "tvd_noisy_vs_real": 0.0479,
+          "tvd_ideal_vs_noisy": 0.1078,
+          "real_job_id": "d72ftt6..."
+        },
+        {
+          "pattern_hits": 0,
+          "n_swaps": 50,
+          "tvd_ideal_vs_real": 0.1471,
+          "tvd_noisy_vs_real": 0.0475,
+          "tvd_ideal_vs_noisy": 0.1106,
+          "real_job_id": "d72fu3h..."
+        },
+        {
+          "pattern_hits": 0,
+          "n_swaps": 110,
+          "tvd_ideal_vs_real": 0.144,
+          "tvd_noisy_vs_real": 0.0447,
+          "tvd_ideal_vs_noisy": 0.1095,
+          "real_job_id": "d72fu9k..."
+        },
+        {
+          "pattern_hits": 0,
+          "n_swaps": 120,
+          "tvd_ideal_vs_real": 0.1537,
+          "tvd_noisy_vs_real": 0.0509,
+          "tvd_ideal_vs_noisy": 0.1099,
+          "real_job_id": "d72fufk..."
+        },
+        {
+          "pattern_hits": 0,
+          "n_swaps": 140,
+          "tvd_ideal_vs_real": 0.1414,
+          "tvd_noisy_vs_real": 0.0487,
+          "tvd_ideal_vs_noisy": 0.108,
+          "real_job_id": "d72ful9..."
+        },
+        {
+          "pattern_hits": 0,
+          "n_swaps": 150,
+          "tvd_ideal_vs_real": 0.1301,
+          "tvd_noisy_vs_real": 0.0437,
+          "tvd_ideal_vs_noisy": 0.0941,
+          "real_job_id": "d72fur9..."
+        },
+        {
+          "pattern_hits": 0,
+          "n_swaps": 160,
+          "tvd_ideal_vs_real": 0.1309,
+          "tvd_noisy_vs_real": 0.0504,
+          "tvd_ideal_vs_noisy": 0.1083,
+          "real_job_id": "d72fv1c..."
+        }
+      ]
+    },
+    "hit_1": {
+      "stats": {
+        "count": 10,
+        "mean": 0.05207,
+        "std": 0.009324,
+        "min": 0.038,
+        "max": 0.0698,
+        "median": 0.05125
+      },
+      "completed": [
+        {
+          "pattern_hits": 1,
+          "n_swaps": 14,
+          "tvd_ideal_vs_real": 0.1307,
+          "tvd_noisy_vs_real": 0.0479,
+          "tvd_ideal_vs_noisy": 0.1074,
+          "real_job_id": "d72fvde..."
+        },
+        {
+          "pattern_hits": 1,
+          "n_swaps": 15,
+          "tvd_ideal_vs_real": 0.1311,
+          "tvd_noisy_vs_real": 0.0521,
+          "tvd_ideal_vs_noisy": 0.1083,
+          "real_job_id": "d72fvj6..."
+        },
+        {
+          "pattern_hits": 1,
+          "n_swaps": 16,
+          "tvd_ideal_vs_real": 0.1348,
+          "tvd_noisy_vs_real": 0.038,
+          "tvd_ideal_vs_noisy": 0.1174,
+          "real_job_id": "d72fvp4..."
+        },
+        {
+          "pattern_hits": 1,
+          "n_swaps": 20,
+          "tvd_ideal_vs_real": 0.1305,
+          "tvd_noisy_vs_real": 0.041,
+          "tvd_ideal_vs_noisy": 0.1029,
+          "real_job_id": "d72fvuu..."
+        },
+        {
+          "pattern_hits": 1,
+          "n_swaps": 21,
+          "tvd_ideal_vs_real": 0.1505,
+          "tvd_noisy_vs_real": 0.0544,
+          "tvd_ideal_vs_noisy": 0.1029,
+          "real_job_id": "d72g04m..."
+        },
+        {
+          "pattern_hits": 1,
+          "n_swaps": 24,
+          "tvd_ideal_vs_real": 0.1292,
+          "tvd_noisy_vs_real": 0.0551,
+          "tvd_ideal_vs_noisy": 0.1047,
+          "real_job_id": "d72g0ah..."
+        },
+        {
+          "pattern_hits": 1,
+          "n_swaps": 24,
+          "tvd_ideal_vs_real": 0.1467,
+          "tvd_noisy_vs_real": 0.0496,
+          "tvd_ideal_vs_noisy": 0.1121,
+          "real_job_id": "d72g0g9..."
+        },
+        {
+          "pattern_hits": 1,
+          "n_swaps": 25,
+          "tvd_ideal_vs_real": 0.1528,
+          "tvd_noisy_vs_real": 0.0698,
+          "tvd_ideal_vs_noisy": 0.1151,
+          "real_job_id": "d72g0n1..."
+        },
+        {
+          "pattern_hits": 1,
+          "n_swaps": 25,
+          "tvd_ideal_vs_real": 0.1597,
+          "tvd_noisy_vs_real": 0.0624,
+          "tvd_ideal_vs_noisy": 0.1111,
+          "real_job_id": "d72g0sp..."
+        },
+        {
+          "pattern_hits": 1,
+          "n_swaps": 27,
+          "tvd_ideal_vs_real": 0.1466,
+          "tvd_noisy_vs_real": 0.0504,
+          "tvd_ideal_vs_noisy": 0.1018,
+          "real_job_id": "d72g17k..."
+        }
+      ]
+    },
+    "hit_2": {
+      "stats": {
+        "count": 10,
+        "mean": 0.05942,
+        "std": 0.009012,
+        "min": 0.0427,
+        "max": 0.0725,
+        "median": 0.0599
+      },
+      "completed": [
+        {
+          "pattern_hits": 2,
+          "n_swaps": 4,
+          "tvd_ideal_vs_real": 0.1383,
+          "tvd_noisy_vs_real": 0.0497,
+          "tvd_ideal_vs_noisy": 0.1042,
+          "real_job_id": "d72g1ee..."
+        },
+        {
+          "pattern_hits": 2,
+          "n_swaps": 6,
+          "tvd_ideal_vs_real": 0.151,
+          "tvd_noisy_vs_real": 0.0586,
+          "tvd_ideal_vs_noisy": 0.0967,
+          "real_job_id": "d72g1k4..."
+        },
+        {
+          "pattern_hits": 2,
+          "n_swaps": 6,
+          "tvd_ideal_vs_real": 0.1625,
+          "tvd_noisy_vs_real": 0.0725,
+          "tvd_ideal_vs_noisy": 0.1107,
+          "real_job_id": "d72g1q4..."
+        },
+        {
+          "pattern_hits": 2,
+          "n_swaps": 8,
+          "tvd_ideal_vs_real": 0.1415,
+          "tvd_noisy_vs_real": 0.0546,
+          "tvd_ideal_vs_noisy": 0.1067,
+          "real_job_id": "d72g1vh..."
+        },
+        {
+          "pattern_hits": 2,
+          "n_swaps": 8,
+          "tvd_ideal_vs_real": 0.1637,
+          "tvd_noisy_vs_real": 0.0637,
+          "tvd_ideal_vs_noisy": 0.1018,
+          "real_job_id": "d72g25p..."
+        },
+        {
+          "pattern_hits": 2,
+          "n_swaps": 9,
+          "tvd_ideal_vs_real": 0.1716,
+          "tvd_noisy_vs_real": 0.0701,
+          "tvd_ideal_vs_noisy": 0.1113,
+          "real_job_id": "d72g2bm..."
+        },
+        {
+          "pattern_hits": 2,
+          "n_swaps": 9,
+          "tvd_ideal_vs_real": 0.1692,
+          "tvd_noisy_vs_real": 0.0571,
+          "tvd_ideal_vs_noisy": 0.1251,
+          "real_job_id": "d72g2h9..."
+        },
+        {
+          "pattern_hits": 2,
+          "n_swaps": 10,
+          "tvd_ideal_vs_real": 0.1515,
+          "tvd_noisy_vs_real": 0.0612,
+          "tvd_ideal_vs_noisy": 0.1094,
+          "real_job_id": "d72g2n9..."
+        },
+        {
+          "pattern_hits": 2,
+          "n_swaps": 10,
+          "tvd_ideal_vs_real": 0.1614,
+          "tvd_noisy_vs_real": 0.064,
+          "tvd_ideal_vs_noisy": 0.1034,
+          "real_job_id": "d72g2tm..."
+        },
+        {
+          "pattern_hits": 2,
+          "n_swaps": 11,
+          "tvd_ideal_vs_real": 0.1372,
+          "tvd_noisy_vs_real": 0.0427,
+          "tvd_ideal_vs_noisy": 0.1064,
+          "real_job_id": "d72g354..."
+        }
+      ]
+    },
+    "hit_3": {
+      "stats": {
+        "count": 10,
+        "mean": 0.06643,
+        "std": 0.018524,
+        "min": 0.0469,
+        "max": 0.1075,
+        "median": 0.06025
+      },
+      "completed": [
+        {
+          "pattern_hits": 3,
+          "n_swaps": 1,
+          "tvd_ideal_vs_real": 0.1748,
+          "tvd_noisy_vs_real": 0.0841,
+          "tvd_ideal_vs_noisy": 0.0991,
+          "real_job_id": "d72g3bk..."
+        },
+        {
+          "pattern_hits": 3,
+          "n_swaps": 1,
+          "tvd_ideal_vs_real": 0.1781,
+          "tvd_noisy_vs_real": 0.0724,
+          "tvd_ideal_vs_noisy": 0.1212,
+          "real_job_id": "d72g3h9..."
+        },
+        {
+          "pattern_hits": 3,
+          "n_swaps": 1,
+          "tvd_ideal_vs_real": 0.1414,
+          "tvd_noisy_vs_real": 0.0469,
+          "tvd_ideal_vs_noisy": 0.1135,
+          "real_job_id": "d72g3oh..."
+        },
+        {
+          "pattern_hits": 3,
+          "n_swaps": 1,
+          "tvd_ideal_vs_real": 0.1429,
+          "tvd_noisy_vs_real": 0.0547,
+          "tvd_ideal_vs_noisy": 0.1115,
+          "real_job_id": "d72g3uu..."
+        },
+        {
+          "pattern_hits": 3,
+          "n_swaps": 1,
+          "tvd_ideal_vs_real": 0.1501,
+          "tvd_noisy_vs_real": 0.0531,
+          "tvd_ideal_vs_noisy": 0.1097,
+          "real_job_id": "d72g456..."
+        },
+        {
+          "pattern_hits": 3,
+          "n_swaps": 2,
+          "tvd_ideal_vs_real": 0.1792,
+          "tvd_noisy_vs_real": 0.0723,
+          "tvd_ideal_vs_noisy": 0.1095,
+          "real_job_id": "d72g4be..."
+        },
+        {
+          "pattern_hits": 3,
+          "n_swaps": 2,
+          "tvd_ideal_vs_real": 0.2126,
+          "tvd_noisy_vs_real": 0.1075,
+          "tvd_ideal_vs_noisy": 0.1176,
+          "real_job_id": "d72g4im..."
+        },
+        {
+          "pattern_hits": 3,
+          "n_swaps": 2,
+          "tvd_ideal_vs_real": 0.1545,
+          "tvd_noisy_vs_real": 0.0543,
+          "tvd_ideal_vs_noisy": 0.1156,
+          "real_job_id": "d72g4om..."
+        },
+        {
+          "pattern_hits": 3,
+          "n_swaps": 2,
+          "tvd_ideal_vs_real": 0.1587,
+          "tvd_noisy_vs_real": 0.0658,
+          "tvd_ideal_vs_noisy": 0.0986,
+          "real_job_id": "d72g4um..."
+        },
+        {
+          "pattern_hits": 3,
+          "n_swaps": 2,
+          "tvd_ideal_vs_real": 0.1351,
+          "tvd_noisy_vs_real": 0.0532,
+          "tvd_ideal_vs_noisy": 0.1089,
+          "real_job_id": "d72g54p..."
+        }
+      ]
+    }
+  }
+}

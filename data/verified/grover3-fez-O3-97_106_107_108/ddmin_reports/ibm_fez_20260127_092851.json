@@ -1,0 +1,139 @@
+{
+  "timestamp": "2026-01-27T09:28:51",
+  "baseline_ratio": 1.22,
+  "noise_threshold": 0.08,
+  "problematic_segments": [
+    4,
+    5
+  ],
+  "problematic_details": [
+    {
+      "layer_id": 4,
+      "moments": [
+        11,
+        12,
+        13
+      ],
+      "description": "2xrz, 1xsx, 1xcz",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            97
+          ],
+          "params": [
+            -2.748894
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            2.771693
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            108,
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 5,
+      "moments": [
+        14,
+        15,
+        16
+      ],
+      "description": "2xsx, 1xrz, 1xcz",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            108
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            0.392699
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            108,
+            107
+          ]
+        }
+      ]
+    }
+  ],
+  "ddmin_steps": [
+    {
+      "step": 1,
+      "action": "baseline",
+      "kept": 36,
+      "ratio": 1.22,
+      "result": "ratio=1.22 > 1+tau=1.08, starting DDMin"
+    },
+    {
+      "step": 2,
+      "action": "narrow",
+      "kept": 18,
+      "ratio": 0.98,
+      "drop": 0.24,
+      "result": "remove 0-17: drop=0.24 > tau -> narrow to 0-17"
+    },
+    {
+      "step": 3,
+      "action": "sufficient",
+      "kept": 9,
+      "ratio": 1.15,
+      "result": "keep 0-8: ratio=1.15 > 1+tau -> sufficient, narrow to 0-8"
+    },
+    {
+      "step": 4,
+      "action": "narrow",
+      "kept": 5,
+      "ratio": 1.12,
+      "drop": 0.1,
+      "result": "remove 0-3: drop=0.10 > tau -> narrow to 4-8"
+    },
+    {
+      "step": 5,
+      "action": "narrow",
+      "kept": 3,
+      "ratio": 1.1,
+      "drop": 0.12,
+      "result": "remove 6-8: drop=0.12 > tau -> narrow to 4-5"
+    },
+    {
+      "step": 6,
+      "action": "sufficient",
+      "kept": 2,
+      "ratio": 1.09,
+      "result": "keep 4-5: ratio=1.09 > 1+tau -> sufficient, converged to [4,5]"
+    }
+  ]
+}

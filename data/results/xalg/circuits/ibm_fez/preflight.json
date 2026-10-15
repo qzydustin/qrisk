@@ -1,0 +1,585 @@
+{
+  "created": "2026-09-25T14:37:39",
+  "backend": "ibm_fez",
+  "hardware": "ibm",
+  "shots": 8192,
+  "seed_transpiler": 7,
+  "thresholds": {
+    "min_segments": 8,
+    "min_tvd_from_uniform": 0.15,
+    "min_model_over_floor": 1.5
+  },
+  "calibration": {
+    "backend": "ibm_fez",
+    "hardware": "ibm",
+    "calibration_last_update": "2026-09-25T14:01:34-05:00"
+  },
+  "versions": {
+    "qiskit": "2.4.1",
+    "qiskit-aer": "0.17.2",
+    "qiskit-ibm-runtime": "0.46.1",
+    "mqt.bench": "2.3.0"
+  },
+  "rows": [
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "qrisk_grover3x",
+      "passed": false,
+      "reason": "model error 0.051 < 1.5x shot-noise floor 0.036",
+      "native_ops": 431,
+      "cz": 82,
+      "depth": 321,
+      "segments": 105,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.209,
+      "tvd_ideal_noisy": 0.0511,
+      "shot_noise_floor": 0.0364,
+      "qpy": "circuits/ibm_fez/46_47_48_57/qrisk_grover3x.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "ae",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 104,
+      "cz": 21,
+      "depth": 66,
+      "segments": 22,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.6591,
+      "tvd_ideal_noisy": 0.0729,
+      "shot_noise_floor": 0.0266,
+      "qpy": "circuits/ibm_fez/46_47_48_57/ae.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "qpeinexact",
+      "passed": false,
+      "reason": "model error 0.057 < 1.5x shot-noise floor 0.050",
+      "native_ops": 104,
+      "cz": 21,
+      "depth": 65,
+      "segments": 22,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.5656,
+      "tvd_ideal_noisy": 0.0568,
+      "shot_noise_floor": 0.0503,
+      "qpy": "circuits/ibm_fez/46_47_48_57/qpeinexact.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "qwalk",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 890,
+      "cz": 182,
+      "depth": 692,
+      "segments": 231,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.6875,
+      "tvd_ideal_noisy": 0.3202,
+      "shot_noise_floor": 0.0603,
+      "qpy": "circuits/ibm_fez/46_47_48_57/qwalk.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "randomcircuit",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 410,
+      "cz": 88,
+      "depth": 295,
+      "segments": 98,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.7937,
+      "tvd_ideal_noisy": 0.2068,
+      "shot_noise_floor": 0.0349,
+      "qpy": "circuits/ibm_fez/46_47_48_57/randomcircuit.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "wstate",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 55,
+      "cz": 12,
+      "depth": 31,
+      "segments": 10,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.75,
+      "tvd_ideal_noisy": 0.0676,
+      "shot_noise_floor": 0.0374,
+      "qpy": "circuits/ibm_fez/46_47_48_57/wstate.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "ghz",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 40,
+      "cz": 7,
+      "depth": 25,
+      "segments": 8,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.875,
+      "tvd_ideal_noisy": 0.0779,
+      "shot_noise_floor": 0.0149,
+      "qpy": "circuits/ibm_fez/46_47_48_57/ghz.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "qpeexact",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 52,
+      "cz": 10,
+      "depth": 32,
+      "segments": 11,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.875,
+      "tvd_ideal_noisy": 0.0703,
+      "shot_noise_floor": 0.0107,
+      "qpy": "circuits/ibm_fez/46_47_48_57/qpeexact.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "dj",
+      "passed": false,
+      "reason": "only 5 segments (<8)",
+      "native_ops": 32,
+      "cz": 6,
+      "depth": 16,
+      "segments": 5,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.875,
+      "tvd_ideal_noisy": 0.0469,
+      "shot_noise_floor": 0.0107,
+      "qpy": "circuits/ibm_fez/46_47_48_57/dj.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "bv",
+      "passed": false,
+      "reason": "only 4 segments (<8)",
+      "native_ops": 17,
+      "cz": 4,
+      "depth": 12,
+      "segments": 4,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.875,
+      "tvd_ideal_noisy": 0.0404,
+      "shot_noise_floor": 0.0046,
+      "qpy": "circuits/ibm_fez/46_47_48_57/bv.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "grover",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 545,
+      "cz": 120,
+      "depth": 354,
+      "segments": 118,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.881,
+      "tvd_ideal_noisy": 0.3768,
+      "shot_noise_floor": 0.0449,
+      "qpy": "circuits/ibm_fez/46_47_48_57/grover.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "qft",
+      "passed": false,
+      "reason": "near-uniform output (TVD from uniform 0.02 < 0.15); model error 0.033 < 1.5x shot-noise floor 0.068",
+      "native_ops": 89,
+      "cz": 21,
+      "depth": 71,
+      "segments": 24,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.0186,
+      "tvd_ideal_noisy": 0.0327,
+      "shot_noise_floor": 0.0681,
+      "qpy": "circuits/ibm_fez/46_47_48_57/qft.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "graphstate",
+      "passed": false,
+      "reason": "only 6 segments (<8); near-uniform output (TVD from uniform 0.02 < 0.15); model error 0.029 < 1.5x shot-noise floor 0.056",
+      "native_ops": 31,
+      "cz": 10,
+      "depth": 19,
+      "segments": 6,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.02,
+      "tvd_ideal_noisy": 0.0291,
+      "shot_noise_floor": 0.0562,
+      "qpy": "circuits/ibm_fez/46_47_48_57/graphstate.qpy"
+    },
+    {
+      "layout": [
+        46,
+        47,
+        48,
+        57
+      ],
+      "algorithm": "qftentangled",
+      "passed": false,
+      "reason": "model error 0.044 < 1.5x shot-noise floor 0.043",
+      "native_ops": 104,
+      "cz": 24,
+      "depth": 81,
+      "segments": 27,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.319,
+      "tvd_ideal_noisy": 0.0443,
+      "shot_noise_floor": 0.0435,
+      "qpy": "circuits/ibm_fez/46_47_48_57/qftentangled.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "qrisk_grover3x",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 436,
+      "cz": 85,
+      "depth": 322,
+      "segments": 106,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.2097,
+      "tvd_ideal_noisy": 0.0433,
+      "shot_noise_floor": 0.0205,
+      "qpy": "circuits/ibm_fez/97_106_107_108/qrisk_grover3x.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "ae",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 106,
+      "cz": 21,
+      "depth": 71,
+      "segments": 24,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.6572,
+      "tvd_ideal_noisy": 0.056,
+      "shot_noise_floor": 0.0227,
+      "qpy": "circuits/ibm_fez/97_106_107_108/ae.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "qpeinexact",
+      "passed": false,
+      "reason": "model error 0.042 < 1.5x shot-noise floor 0.042",
+      "native_ops": 102,
+      "cz": 21,
+      "depth": 67,
+      "segments": 22,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.573,
+      "tvd_ideal_noisy": 0.0425,
+      "shot_noise_floor": 0.0422,
+      "qpy": "circuits/ibm_fez/97_106_107_108/qpeinexact.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "qwalk",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 914,
+      "cz": 183,
+      "depth": 710,
+      "segments": 237,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.6875,
+      "tvd_ideal_noisy": 0.3142,
+      "shot_noise_floor": 0.0273,
+      "qpy": "circuits/ibm_fez/97_106_107_108/qwalk.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "randomcircuit",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 409,
+      "cz": 86,
+      "depth": 295,
+      "segments": 98,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.798,
+      "tvd_ideal_noisy": 0.1876,
+      "shot_noise_floor": 0.0354,
+      "qpy": "circuits/ibm_fez/97_106_107_108/randomcircuit.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "wstate",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 52,
+      "cz": 9,
+      "depth": 28,
+      "segments": 9,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.75,
+      "tvd_ideal_noisy": 0.0427,
+      "shot_noise_floor": 0.0193,
+      "qpy": "circuits/ibm_fez/97_106_107_108/wstate.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "ghz",
+      "passed": false,
+      "reason": "only 7 segments (<8); model error 0.040 < 1.5x shot-noise floor 0.040",
+      "native_ops": 30,
+      "cz": 6,
+      "depth": 20,
+      "segments": 7,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.875,
+      "tvd_ideal_noisy": 0.0396,
+      "shot_noise_floor": 0.0396,
+      "qpy": "circuits/ibm_fez/97_106_107_108/ghz.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "qpeexact",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 52,
+      "cz": 10,
+      "depth": 35,
+      "segments": 12,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.875,
+      "tvd_ideal_noisy": 0.0513,
+      "shot_noise_floor": 0.0093,
+      "qpy": "circuits/ibm_fez/97_106_107_108/qpeexact.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "dj",
+      "passed": false,
+      "reason": "only 6 segments (<8)",
+      "native_ops": 33,
+      "cz": 6,
+      "depth": 18,
+      "segments": 6,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.875,
+      "tvd_ideal_noisy": 0.0416,
+      "shot_noise_floor": 0.0071,
+      "qpy": "circuits/ibm_fez/97_106_107_108/dj.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "bv",
+      "passed": false,
+      "reason": "only 2 segments (<8)",
+      "native_ops": 7,
+      "cz": 1,
+      "depth": 7,
+      "segments": 2,
+      "measured_bits": 3,
+      "tvd_ideal_uniform": 0.875,
+      "tvd_ideal_noisy": 0.0204,
+      "shot_noise_floor": 0.0037,
+      "qpy": "circuits/ibm_fez/97_106_107_108/bv.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "grover",
+      "passed": true,
+      "reason": "ok",
+      "native_ops": 544,
+      "cz": 123,
+      "depth": 359,
+      "segments": 120,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.8838,
+      "tvd_ideal_noisy": 0.3428,
+      "shot_noise_floor": 0.0442,
+      "qpy": "circuits/ibm_fez/97_106_107_108/grover.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "qft",
+      "passed": false,
+      "reason": "near-uniform output (TVD from uniform 0.02 < 0.15); model error 0.025 < 1.5x shot-noise floor 0.045",
+      "native_ops": 80,
+      "cz": 18,
+      "depth": 68,
+      "segments": 23,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.0175,
+      "tvd_ideal_noisy": 0.0247,
+      "shot_noise_floor": 0.0449,
+      "qpy": "circuits/ibm_fez/97_106_107_108/qft.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "graphstate",
+      "passed": false,
+      "reason": "only 5 segments (<8); near-uniform output (TVD from uniform 0.02 < 0.15); model error 0.026 < 1.5x shot-noise floor 0.057",
+      "native_ops": 24,
+      "cz": 7,
+      "depth": 14,
+      "segments": 5,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.0165,
+      "tvd_ideal_noisy": 0.0261,
+      "shot_noise_floor": 0.0566,
+      "qpy": "circuits/ibm_fez/97_106_107_108/graphstate.qpy"
+    },
+    {
+      "layout": [
+        97,
+        106,
+        107,
+        108
+      ],
+      "algorithm": "qftentangled",
+      "passed": false,
+      "reason": "model error 0.039 < 1.5x shot-noise floor 0.053",
+      "native_ops": 95,
+      "cz": 21,
+      "depth": 75,
+      "segments": 25,
+      "measured_bits": 4,
+      "tvd_ideal_uniform": 0.3052,
+      "tvd_ideal_noisy": 0.0386,
+      "shot_noise_floor": 0.0527,
+      "qpy": "circuits/ibm_fez/97_106_107_108/qftentangled.qpy"
+    }
+  ]
+}

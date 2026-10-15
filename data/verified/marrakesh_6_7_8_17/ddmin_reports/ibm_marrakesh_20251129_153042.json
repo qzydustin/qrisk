@@ -1,0 +1,142 @@
+{
+  "timestamp": "2025-11-29T15:30:42",
+  "baseline_ratio": 1.29,
+  "noise_threshold": 0.07,
+  "problematic_segments": [
+    7,
+    8,
+    9
+  ],
+  "problematic_details": [
+    {
+      "layer_id": 7,
+      "moments": [
+        21,
+        22,
+        23
+      ],
+      "description": "1xrz, 1xcz, 1xsx",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            7
+          ],
+          "params": [
+            3.141593
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            8,
+            7
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 8,
+      "moments": [
+        24,
+        25,
+        26
+      ],
+      "description": "1xrz, 1xsx, 1xcz",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            7
+          ],
+          "params": [
+            -2.748894
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            7
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 9,
+      "moments": [
+        27,
+        28,
+        29
+      ],
+      "description": "2xsx, 1xrz",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            7
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            7
+          ],
+          "params": [
+            -2.748894
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "ddmin_steps": [
+    {
+      "step": 1,
+      "action": "baseline",
+      "kept": 37,
+      "ratio": 1.29,
+      "result": "ratio=1.29 > 1+tau=1.07, starting DDMin"
+    },
+    {
+      "step": 2,
+      "action": "narrow",
+      "kept": 18,
+      "ratio": 0.99,
+      "drop": 0.3,
+      "result": "remove 0-18: drop=0.30 > tau -> narrow to 0-18"
+    },
+    {
+      "step": 3,
+      "action": "narrow",
+      "kept": 9,
+      "ratio": 1.22,
+      "drop": 0.07,
+      "result": "remove 0-8: drop=0.07 = tau -> narrow to 0-8"
+    },
+    {
+      "step": 4,
+      "action": "sufficient",
+      "kept": 3,
+      "ratio": 1.12,
+      "result": "keep 7-9: ratio=1.12 > 1+tau -> sufficient, converged to [7,8,9]"
+    }
+  ]
+}

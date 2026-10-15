@@ -1,0 +1,156 @@
+{
+  "timestamp": "2026-01-15T11:09:33",
+  "baseline_ratio": 1.36,
+  "noise_threshold": 0.06,
+  "problematic_segments": [
+    6,
+    7,
+    8
+  ],
+  "problematic_details": [
+    {
+      "layer_id": 6,
+      "moments": [
+        18,
+        19,
+        20
+      ],
+      "description": "3xsx, 2xrz",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            6
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            7
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            6
+          ],
+          "params": [
+            -1.19083
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            7
+          ],
+          "params": [
+            1.178097
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 7,
+      "moments": [
+        21,
+        22,
+        23
+      ],
+      "description": "1xrz, 1xcz, 1xsx",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            7
+          ],
+          "params": [
+            3.141593
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            8,
+            7
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 8,
+      "moments": [
+        24,
+        25,
+        26
+      ],
+      "description": "1xrz, 1xsx, 1xcz",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            7
+          ],
+          "params": [
+            -2.748894
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            7
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            6,
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "ddmin_steps": [
+    {
+      "step": 1,
+      "action": "baseline",
+      "kept": 37,
+      "ratio": 1.36,
+      "result": "ratio=1.36 > 1+tau=1.06, starting DDMin"
+    },
+    {
+      "step": 2,
+      "action": "narrow",
+      "kept": 18,
+      "ratio": 1.04,
+      "drop": 0.32,
+      "result": "remove 0-18: drop=0.32 > tau -> narrow to 0-18"
+    },
+    {
+      "step": 3,
+      "action": "sufficient",
+      "kept": 9,
+      "ratio": 1.28,
+      "result": "keep 0-8: ratio=1.28 > 1+tau -> sufficient, narrow to 0-8"
+    },
+    {
+      "step": 4,
+      "action": "sufficient",
+      "kept": 3,
+      "ratio": 1.16,
+      "result": "keep 6-8: ratio=1.16 > 1+tau -> sufficient, converged to [6,7,8]"
+    }
+  ]
+}

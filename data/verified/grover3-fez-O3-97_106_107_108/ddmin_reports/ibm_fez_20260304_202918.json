@@ -1,0 +1,207 @@
+{
+  "timestamp": "2026-03-04T20:29:18",
+  "baseline_ratio": 1.35,
+  "noise_threshold": 0.05,
+  "problematic_segments": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "problematic_details": [
+    {
+      "layer_id": 3,
+      "moments": [
+        8,
+        9,
+        10
+      ],
+      "description": "2xsx, 1xcz, 1xx",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            97,
+            107
+          ]
+        },
+        {
+          "op": "x",
+          "qubits": [
+            97
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 4,
+      "moments": [
+        11,
+        12,
+        13
+      ],
+      "description": "2xrz, 1xsx, 1xcz",
+      "instructions": [
+        {
+          "op": "rz",
+          "qubits": [
+            97
+          ],
+          "params": [
+            -2.748894
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            2.771693
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            108,
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 5,
+      "moments": [
+        14,
+        15,
+        16
+      ],
+      "description": "2xsx, 1xrz, 1xcz",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            108
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            107
+          ],
+          "params": [
+            0.392699
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            108,
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "layer_id": 6,
+      "moments": [
+        17,
+        18,
+        19
+      ],
+      "description": "3xsx, 1xcz, 1xrz",
+      "instructions": [
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            108
+          ]
+        },
+        {
+          "op": "cz",
+          "qubits": [
+            97,
+            107
+          ]
+        },
+        {
+          "op": "rz",
+          "qubits": [
+            108
+          ],
+          "params": [
+            0.762599
+          ]
+        },
+        {
+          "op": "sx",
+          "qubits": [
+            107
+          ]
+        }
+      ]
+    }
+  ],
+  "ddmin_steps": [
+    {
+      "step": 1,
+      "action": "baseline",
+      "kept": 36,
+      "ratio": 1.35,
+      "result": "ratio=1.35 > 1+tau=1.05, starting DDMin"
+    },
+    {
+      "step": 2,
+      "action": "narrow",
+      "kept": 18,
+      "ratio": 1.03,
+      "drop": 0.32,
+      "result": "remove 0-17: drop=0.32 > tau -> narrow to 0-17"
+    },
+    {
+      "step": 3,
+      "action": "narrow",
+      "kept": 9,
+      "ratio": 1.28,
+      "drop": 0.07,
+      "result": "remove 0-8: drop=0.07 > tau -> narrow to 0-8"
+    },
+    {
+      "step": 4,
+      "action": "sufficient",
+      "kept": 4,
+      "ratio": 1.21,
+      "result": "keep 3-6: ratio=1.21 > 1+tau -> sufficient, converged to [3,4,5,6]"
+    }
+  ]
+}
